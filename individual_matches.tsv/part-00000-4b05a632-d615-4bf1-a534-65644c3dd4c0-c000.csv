@@ -1,0 +1,442 @@
+uk_id	ofac_id	uk_name	ofac_name	uk_dob	ofac_dob	uk_place_of_birth	ofac_place_of_birth	uk_nationality	ofac_nationality	name_distance	dob_distance	place_of_birth_overlap	nationality_overlap	rank
+6894	7329	mohamad iqbal abdurrahman	mohamad iqbal abdurrahman	17/08/1957	17 aug 1957	(1) tirpas-selong village, east lombok (2) korleko-lombok timur, (1) indonesia (2) indonesia	tirpas-selong village, east lombok, indonesia, korleko-lombok timur, indonesia	indonesian	indonesia	0	0	0	0	1
+6899	6907	tharwat salah shihata	thirwat salah shihata	29/06/1960	29 jun 1960	egypt	egypt	egyptian		1	0	1	-1	1
+6901	7135	abdul majeed	abdul majeed	00/00/1938	1938	""		pakistani	pakistan	0	0	-1	0	1
+6911	23634	abdul qadeer basir abdul baseer	abdul qadeer basir abdul baseer	00/00/1964	1964	(1) surkh rod district, nangarhar province (2) hisarak district, nangarhar province, (1) afghanistan (2) afghanistan	nangarhar province, afghanistan	afghan	afghanistan	0	0	1	0	1
+6925	6925	ahmed khalfan ghailani	ahmed khalfan ghailani	01/08/1970	01 aug 1970	zanzibar, tanzania	zanzibar, tanzania	tanzania	tanzania	0	0	2	1	1
+6932	6950	omar mahmoud uthman	omar mahmoud uthman	13/12/1960	13 dec 1960	bethlehem, west bank, palestinian territories	bethlehem, west bank, palestinian territories	jordanian	jordan	0	0	3	0	1
+6944	6940	amin al-haq	amin al-haq	00/00/1960	1960	nangarhar province, afghanistan	nangahar province, afghanistan	afghan		0	0	1	-1	1
+6962	7209	khalid abd al-rahman hamd al-fawaz	khalid abd al-rahman hamd al-fawaz	24/08/1962	24 aug 1962	kuwait	kuwait	saudi arabian	saudi arabia	0	0	1	0	1
+6994	6928	khalid sheikh mohammed	khalid shaikh mohammed	01/03/1964	01 mar 1964	balochistan, pakistan	kuwait	pakistani	kuwait	1	0	0	0	1
+6995	7006	hassan dahir aweys	hassan dahir aweys	00/00/1935	1935	somalia		somali citizen	somalia	0	0	-1	0	1
+6995	11744	hassan dahir aweys	hassan dahir aweys	00/00/1935	1935	somalia		somali citizen	somalia	0	0	-1	0	1
+6997	6941	salim ahmad salim hamdan	salim ahmad salim hamdan	00/00/1965	1965	(1) al-mukalla (2) al-mukala, (1) yemen (2) yemen	al-mukalla, yemen	yemeni		0	0	0	-1	1
+6998	7148	boubekeur boulghiti	boubekeur boulghiti	13/02/1970	13 feb 1970	rouiba, algiers, algeria	rouiba, algiers, algeria	(1) algerian (2) palestinian	algeria	0	0	3	0	1
+7024	7203	mohamed ben belkacem aouadi	mohamed ben belgacem aouadi	11/12/1974	11 dec 1974	tunis, tunisia	tunisia	tunisian	tunisia	1	0	1	0	1
+7082	7133	sultan bashiruddin mahmood	sultan bashir-ud-din mahmood	00/00/1937	1937	""		pakistani	pakistan	2	0	-1	0	1
+7087	7204	lased ben heni	lased ben heni	05/02/1969	05 feb 1969	(1) tripoli (2) tunis, (1) libyan arab jamahiriya (2) tunisia	libya, tripoli	tunisian		0	0	0	-1	1
+7098	7265	ramzi mohamed abdullah binalshibh	ramzi mohammed abdullah binalshibh	01/05/1972	01 may 1972	(1) gheil bawazir, hadramawt (2) khartoum, (1) yemen (2) sudan	hadramawt, yemen, khartoum sudan	(1) yemeni (2) sudan	yemen	1	0	0	0	1
+7131	7267	zakarya essabar	zakarya essabar	03/04/1977	03 apr 1977	essaouria, morocco	essaouria, morocco	moroccan		0	0	2	-1	1
+7146	6926	hasan izz al-din	hasan izz-al-din	00/00/1963	1963	lebanon	lebanon	lebanese	lebanon	1	0	1	0	1
+7156	7328	nurjaman riduan isamuddin	nurjaman riduan isamuddin	04/04/1964	04 apr 1964	cianjur, west java, indonesia	cianjur, west java, indonesia	indonesian	indonesia	0	0	3	0	1
+7424	6901	sayf-al adl	sayf al-adl	11/04/1963	1963	monufia governorate, egypt	egypt	egyptian		2	100	1	-1	1
+7478	6931	abdul rahman yasin	abdul rahman yasin	10/04/1960	10 apr 1960	bloomington, indiana, united states of america	bloomington, indiana usa	united states of america	united states	0	0	1	0	1
+7517	7138	mohammed tufail	mohammed tufail	05/05/1930	05 may 1930	""		pakistani	pakistan	0	0	-1	0	1
+7574	7885	humam abd-al-khaliq abd-al-ghafur	humam abd-al-khaliq abd-al-ghafur	00/00/1945	1945	ar-ramadi, iraq	ar-ramadi, iraq	iraq	iraq	0	0	2	1	1
+7576	7871	mahmud dhiyab al-ahmed	mahmud dhiyab al-ahmad	00/00/1953	1953	baghdad or mosul, iraq	mosul or baghdad, iraq	iraq	iraq	1	0	1	1	1
+7580	7848	izzat ibrahim al-duri	izzat ibrahim al-duri	00/00/1942	circa 1942	al-dur, iraq	al-dur, iraq	iraq	iraq	0	184	2	1	1
+7582	7862	taha yassin ramadan al-jizrawi	taha yassin ramadan al-jizrawi	00/00/1938	circa 1938	mosul, iraq		iraq	iraq	0	184	-1	1	1
+7584	7847	ali hassan al-majid al-tikriti	ali hassan al-majid al-tikriti	00/00/1943	1943	al-awja, near tikrit, iraq	al-awja, near tikrit, iraq	iraq	iraq	0	0	3	1	1
+7591	7856	saif-al-din fulayyih hassan taha al-rawi	saif-al-din fulayyih hassan taha al-rawi	00/00/1953	1953	ramadi, iraq	ar ramadi, al-anbar governorate, iraq	iraq	iraq	0	0	1	1	1
+7603	7867	tariq aziz	tariq aziz	01/07/1936	01 jul 1936	mosul or baghdad, iraq	mosul or baghdad, iraq	iraq	iraq	0	0	2	1	1
+7605	7889	fadil mahmud gharib	fadil mahmud gharib	00/00/1944	1944	dujail, iraq	dujail, iraq	iraq	iraq	0	0	2	1	1
+7610	7878	sab'awi ibrahim hassan al-tikriti	sab'awi ibrahim hassan al-tikriti	00/00/1947	1947	tikrit, iraq	tikrit, iraq	iraq	iraq	0	0	2	1	1
+7611	7879	watban ibrahim hassan al-tikriti	watban ibrahim hassan al-tikriti	00/00/1952	1952	tikrit, iraq	tikrit, iraq	iraq	iraq	0	0	2	1	1
+7612	7843	saddam hussein al-tikriti	saddam hussein al-tikriti	28/04/1937	28 apr 1937	al-awja, near tikrit, iraq	al-awja, near tikrit, iraq	iraq	iraq	0	0	3	1	1
+7614	7845	uday saddam hussein al-tikriti	uday saddam hussein al-tikriti	00/00/1964	1964	baghdad, iraq	baghdad, iraq	iraq	iraq	0	0	2	1	1
+7617	7866	taha muhyi-al-din ma'ruf	taha muhyi-al-din ma'ruf	00/00/1924	1924	sulaymaniyah, iraq	sulaymaniyah, iraq	iraq	iraq	0	0	2	1	1
+7619	7846	abid hamid mahmud al-tikriti	abid hamid mahmud al-tikriti	00/00/1957	circa 1957	al-awja, near tikrit, iraq	al-awja, near tikrit, iraq	iraq	iraq	0	184	3	1	1
+7620	7853	barzan abd al-ghafur sulaiman majid al-tikriti	barzan abd al-ghafur sulaiman majid al-tikriti	00/00/1960	1960	salah al-din, iraq	salah al-din, iraq	iraq	iraq	0	0	2	1	1
+7622	7859	hamid raja shalah al-tikriti	hamid raja shalah al-tikriti	00/00/1950	1950	bayji, salah al-din governorate, iraq	bayji, salah al-din governorate, iraq	iraq	iraq	0	0	3	1	1
+7623	7863	rukan razuki abd-al-ghafur sulaiman al-tikriti	rukan razuki abd-al-ghafur sulaiman al-tikriti	00/00/1956	1956	tikrit, iraq	tikrit, iraq	iraq	iraq	0	0	2	1	1
+7628	7851	muhammad hamza zubaidi	muhammad hamza zubaidi	00/00/1938	1938	babylon, babil, iraq	babylon, babil governorate, iraq	iraq	iraq	0	0	2	1	1
+7795	7828	meherez hamdouni	mehrez amdouni	25/05/1968	25 may 1968	(1) asima-tunis (2) naples (3) -, (1) tunisia (2) italy (3) tunisia	tunis, tunisia, naples, italy, algeria	tunisian	tunisia	2	0	0	0	1
+7797	7831	lionel dumont	lionel dumont	19/01/1971	19 jan 1971	roubaix, france	roubaix, france	french		0	0	2	-1	1
+7798	7832	moussa ben omar ben ali essaadi	moussa ben amor ben ali essaadi	04/12/1964	04 dec 1964	tabarka, tunisia	tabarka, tunisia	tunisian	tunisia	2	0	2	0	1
+7808	7835	khalil yarraya	khalil jarraya	08/02/1969	08 feb 1969	(1) sfax (2) sereka, (1) tunisia  (2) former yugoslavia	sfax, tunisia, sreka, ex-yugoslavia	tunisian	bosnia and herzegovina	1	0	0	0	1
+7834	7928	yassin syawal	yassin syawal	03/09/1962	03 sep 1962	makassar, indonesia	makassar, indonesia	indonesian	indonesia	0	0	2	0	1
+7835	7929	mukhlis yunos	mukhlis yunos	07/07/1966	circa 07 jul 1966	lanao del sur, philippines	lanao del sur, philippines	filipino		0	15	2	-1	1
+7838	7927	parlindungan siregar	parlindungan siregar	25/04/1957	25 apr 1957	indonesia	indonesia	indonesian	indonesia	0	0	1	0	1
+7848	7936	yazid sufaat	yazid sufaat	20/01/1964	20 jan 1964	johor, malaysia	johor, malaysia	malaysian	malaysia	0	0	2	0	1
+7860	7944	djamel moustfa	djamel moustfa	22/08/1973	22 aug 1973	(1) tiaret (2) maskara (3) mahdia (4) mascara (5) algiers (6) mehdia, tiaret province (7) -, (1) to (6) algeria (7) morocco	tiaret, algeria, morocco	algerian	algeria	0	0	0	0	1
+7863	9758	dawood ebrahim	dawood ibrahim	26/12/1955	26 dec 1955	kher, ratnagiri, maharashtra, india	ratnagiri, maharashtra, india	indian	india	1	0	3	0	1
+7865	8094	radi abd el samie abou el yazid el ayashi	radi abd el samie abou el yazid el ayashi	02/01/1972	02 jan 1972	el gharbia governorate, egypt	el gharbia, egypt	egypt	egypt	0	0	1	1	1
+7874	8091	hamadi ben abdul aziz ben ali bouyehia	hamadi ben abdul aziz ben ali bouyahia	29/05/1966	29 may 1966	(1) tunis (2) - (3) -, (1) tunisia (2) morocco (3) egypt	tunisia	tunisian	tunisia	1	0	0	0	1
+7888	3754	mousa mohamed abou marzook	mousa mohammed abu marzook	09/02/1951	09 feb 1951	gaza, egypt	gaza, egypt			2	0	2	-1	1
+7890	8104	saifi ammari	saifi ammari	01/01/1968	01 jan 1968	(1) kef rih (2) guelma, (1) algeria (2) algeria	kef rih, algeria	algerian	algeria	0	0	0	0	1
+8247	8187	ali saddam hussein al-tikriti	ali saddam hussein al-tikriti	00/00/1980	1980	iraq	iraq	iraqi	iraq	0	0	1	0	1
+8258	8197	samira shahbandar	samira shahbandar	00/00/1946	1946	baghdad, iraq	baghdad, iraq	iraqi	iraq	0	0	2	0	1
+8278	8217	munir al-kubaysi	munir al-qubaysi	00/00/1966	1966	heet, iraq	heet, iraq	iraqi	iraq	1	0	2	0	1
+8286	8321	khalaf al dulaimi	khalaf al-dulaimi	25/01/1932	25 jan 1932	""				1	0	-1	-1	1
+8352	8220	kamel djermane	kamel djermane	12/10/1965	1965	oum el bouaghi, algeria	oum el bouaghi, algeria	algerian	algeria	0	284	2	0	1
+8383	8230	adib shaban	adib shaban	00/00/1952	1952	""		iraq	iraq	0	0	-1	1	1
+8425	8264	hassan abdullah hersi al-turki	hassan abdullah hersi al-turki	00/00/1944	circa 1944	ogaden region, ethiopia	ogaden region, ethiopia	somalia		0	184	2	-1	1
+8425	11743	hassan abdullah hersi al-turki	hassan abdullah hersi al-turki	00/00/1944	circa 1944	ogaden region, ethiopia	ogaden region, ethiopia	somalia	somalia	0	184	2	1	1
+8635	8885	abu rusdan	abu rusdan	16/08/1960	16 aug 1960	kudus, central java, indonesia	kudus, central java, indonesia		indonesia	0	0	3	-1	1
+8636	8886	zulkarnaen	zulkarnaen	00/00/1963	1963	gebang village, masaran, sragen, central java, indonesia	gebang village, masaran, sragen, central java, indonesia	indonesian	indonesia	0	0	5	0	1
+8681	8883	muhammad yunis ahmad	muhammad yunis ahmad	00/00/1949	1949	al-mowall, mosul, iraq	al-mowall, mosul, iraq	iraqi	iraq	0	0	3	0	1
+8683	9357	faycal boughanemi	faycal boughanemi	28/10/1966	28 oct 1966	tunis, tunisia	tunis, tunisia	tunisian	tunisia	0	0	2	0	1
+8693	9329	yasir sabawi ibrahim hasan al-tikriti	yasir sabawi ibrahim hasan al-tikriti	15/05/1968	15 may 1968	(1) al-owja (2) baghdad, iraq	al-owja, iraq, baghdad, iraq	iraqi	iraq	0	0	1	0	1
+8694	9330	omar sabawi ibrahim hasan al-tikriti	omar sabawi ibrahim hasan al-tikriti	00/00/1970	circa 1970	baghdad, iraq	baghdad, iraq	iraqi	iraq	0	184	2	0	1
+8695	9331	ayman sabawi ibrahim hasan al-tikriti	ayman sabawi ibrahim hasan al-tikriti	21/10/1971	21 oct 1971	(1) baghdad (2) al-owja, iraq	al-owja, iraq, baghdad, iraq	iraqi	iraq	0	0	1	0	1
+8696	9332	ibrahim sabawi ibrahim hasan al-tikriti	ibrahim sabawi ibrahim hasan al-tikriti	00/00/1977	1977	baghdad, iraq	baghdad, iraq	iraqi	iraq	0	0	2	0	1
+8697	9353	bashar sabawi ibrahim hasan al-tikriti	bashar sabawi ibrahim hasan al-tikriti	17/07/1970	17 jul 1970	baghdad, iraq	baghdad, iraq	iraqi	iraq	0	0	2	0	1
+8698	9354	sa'd sabawi ibrahim hasan al-tikriti	sa'd sabawi ibrahim hasan al-tikriti	19/09/1988	19 sep 1988	""		iraqi	iraq	0	0	-1	0	1
+8705	10148	dieudonn� ozia mazio	dieudonne ozia mazio	06/06/1949	06 jun 1949	ariwara, drc	ariwara, drc	democratic republic of the congo	congo, democratic republic of the	1	0	2	0	1
+8708	10033	khawa panga mandro	khawa panga mandro	20/08/1973	20 aug 1973	bunia, democratic republic of the congo	bunia, democratic republic of the congo	democratic republic of the congo		0	0	2	-1	1
+8710	10035	laurent nkunda	laurent nkunda	02/02/1967	02 feb 1967	north kivu/rutshuru, democratic republic of the congo	rutshuru, north kivu, democratic republic of the congo	democratic republic of the congo		0	0	1	-1	1
+8734	11976	mathieu chui ngudjolo	matthieu cui ngudjolo	08/10/1970	08 oct 1970	bunia, ituri province, democratic republic of the congo	bunia, ituri district, drc	democratic republic of the congo	congo, democratic republic of the	2	0	1	0	1
+8736	11973	bosco taganda	bosco ntaganda	00/00/1973	1973	bigogwe, rwanda	nord-kivu, drc, rwanda	democratic republic of the congo	congo, democratic republic of the	1	0	1	0	1
+8781	9588	farhad kanabi ahmad	farhad kanabi ahmad	01/07/1971	01 jul 1971	arbil, iraq	arbil, iraq	iraqi	iraq	0	0	2	0	1
+8787	9585	isnilon totoni hapilon	isnilon totoni hapilon	18/03/1966	18 mar 1966	bulanza, lantawan, basilan, philippines	bulanza, lantawan, basilan, the philippines	filipino	philippines	0	0	3	0	1
+8788	9584	radulan sahiron	radulan sahiron	00/00/1955	1955	kaunayan, patikul, jolo island, philippines	kaunayan, patikul, jolo island, the philippines	filipino	philippines	0	0	3	0	1
+8831	9614	abu bakar ba'asyir	abu bakar ba'asyir	17/08/1938	17 aug 1938	jombang, east java, indonesia	jombang, east java, indonesia	indonesian	indonesia	0	0	3	0	1
+8832	9615	gun gun rusman gunawan	gun gun rusman gunawan	06/07/1977	06 jul 1977	cianjur, west java, indonesia	cianjur, west java, indonesia	indonesian	indonesia	0	0	3	0	1
+8833	9616	taufik rifki	taufik rifki	19/08/1974	19 aug 1974	dacusuman surakarta, central java, indonesia	dacusuman surakarta, central java, indonesia	indonesian	indonesia	0	0	3	0	1
+8834	9617	abdullah anshori	abdullah anshori	00/00/1958	1958	pacitan, east java, indonesia	pacitan, east java, indonesia	indonesian	indonesia	0	0	3	0	1
+8838	9620	gaffar mohmed elhassan	gaffar mohmed el hassan	24/06/1952	24 jun 1952	""	khartoum, sudan			1	0	0	-1	1
+8904	9769	viktar uladzimiravich sheiman	viktar uladzimiravich sheiman	26/05/1958	26 may 1958	hrodna region, former ussr currently belarus	soltanishka, voronovskovo, belarus, grodno, belarus	belarus		0	0	0	-1	1
+8905	9768	dzmitry valeriyevich paulichenka	dzmitry valeryevich paulichenka	00/00/1966	1966	vitebsk, former ussr currently belarus	vitebsk oblast, belarus	belarus		1	0	0	-1	1
+8906	9898	uladzimir uladzimiravich navumau	uladzimir uladzimiravich naumau	07/02/1956	1956	smolensk, former ussr currently russia		belarus		1	37	-1	-1	1
+8970	10007	najmuddin faraj ahmad	najmuddin faraj ahmad	07/07/1956	07 jul 1956	olaqloo sharbajer, al-sulaymaniyah governorate, iraq	olaqloo sharbajer village, al-sulaymaniyah governorate, iraq	iraqi	iraq	0	0	2	0	1
+9003	10582	ahmad vahid dastjerdi	ahmad vahid dastjerdi	15/01/1954	15 jan 1954	""		iran		0	0	-1	-1	1
+9006	10860	yahya rahim safavi	yahya rahim safavi	00/00/1952	circa 1952	isfahan, iran (islamic republic of)	esfahan, iran			0	184	0	-1	1
+9049	15570	fereidoun abbasi-davani	fereidoun abbasi-davani	00/00/1958	1958	abadan, iran (islamic republic of)	abadan, iran			0	0	1	-1	1
+9054	10857	mehrdada akhlaghi ketabachi	mehrdada akhlaghi ketabachi	10/09/1958	10 sep 1958	""			iran	0	0	-1	-1	1
+9055	10609	naser maleki	naser maleki	00/00/1960	circa 1960	""		iran (islamic republic of)	iran	0	184	-1	0	1
+9057	10479	morteza rezaie	morteza rezaie	00/00/1956	circa 1956	""			iran	0	184	-1	-1	1
+9058	10480	ali akbar ahmadian	ali akbar ahmadian	00/00/1961	circa 1961	kerman, iran (islamic republic of)	kerman, iran		iran	0	184	1	-1	1
+9059	12114	mohammad reza zahedi	mohammed reza zahedi	00/00/1944	1944	isfahan, iran (islamic republic of)	esfahan, iran		iran	1	0	0	-1	1
+9062	10481	qasem soleimani	qasem soleimani	11/03/1957	11 mar 1957	qom, iran (islamic republic of)	qom, iran		iran	0	0	1	-1	1
+9157	10612	abdelmalek droukdel	abdelmalek droukdel	20/04/1970	20 apr 1970	meftah, wilaya of blida, algeria	khemis el khechna, algeria, meftah, algeria	algerian	algeria	0	0	2	0	1
+9215	10689	muhammad saeed	muhammad saeed	05/06/1950	05 jun 1950	sargodha, punjab, pakistan	sargodha, punjab, pakistan	pakistani	pakistan	0	0	3	0	1
+9216	10690	zaki-ur-rehman lakhvi	zaki-ur-rehman lakhvi	30/12/1960	30 dec 1960	okara, pakistan	okara, pakistan	pakistani	pakistan	0	0	2	0	1
+9217	10691	haji muhammad ashraf	haji muhammad ashraf	00/00/1955	1955	faisalabad, pakistan	faisalabad, pakistan	pakistani		0	0	2	-1	1
+9218	10692	mahmoud mohammad ahmed bahaziq	mahmoud mohammad ahmed bahaziq	00/00/1943	1943	india	india	saudi arabian	saudi arabia	0	0	1	0	1
+9224	10009	hamed al-'ali	hamid al-ali	20/01/1960	20 jan 1960	kuwait		kuwaiti	kuwait	2	0	-1	0	1
+9225	10010	jaber al-jalamah	jaber al-jalamah	24/09/1959	24 sep 1959	al-khitan area, kuwait		kuwaiti	kuwait	0	0	-1	0	1
+9226	10011	mubarak mishkhas sanad al-bathali	mubarak mushakhas sanad al-bathali	01/10/1961	01 oct 1961	kuwait		kuwaiti	kuwait	2	0	-1	0	1
+10638	12066	mohammad ali jafari	mohammad ali jafari	01/09/1957	01 sep 1957	yazd, iran	yazd, iran	iranian		0	0	2	-1	1
+10661	10848	angelo ramirez trinidad	angelo ramirez trinidad	20/03/1978	20 mar 1978	gattaran, cagayan province, philippines	gattaran, cagayan province, philippines	filipino	philippines	0	0	3	0	1
+10662	10854	dinno amor rosalejos pareja	dinno amor rosalejos pareja	19/07/1981	19 jul 1981	cebu city, philippines	cebu city, cebu province, philippines	filipino	philippines	0	0	2	0	1
+10665	10849	pio abogne de vera	pio abogne de vera	19/12/1969	19 dec 1969	bagac, bagamanok, catanduanes, philippines	bagac, bagamanok, catanduanes province, philippines	filipino	philippines	0	0	3	0	1
+10666	10850	redendo cain dellosa	redendo cain dellosa	15/05/1972	15 may 1972	punta, santa ana, manila, philippines	punta, santa ana, manila, philippines	filipino	philippines	0	0	4	0	1
+10668	10852	ricardo perez ayeras	ricardo perez ayeras	15/09/1973	15 sep 1973	24 paraiso street, barangay poblacion, mandaluyong city, philippines	24 paraiso street, barangay poblacion, mandaluyong city, manila, philippines	filipino	philippines	0	0	4	0	1
+10674	11391	stanislas nzeyimana	stanislas nzeyimana	01/01/1966	01 jan 1966	mugusa, butare, rwanda	mugusa (butare), rwanda	rwandan	rwanda	0	0	1	0	1
+10678	11389	pacifique ntawunguka	pacifique ntawunguka	01/01/1964	1964	gaseke, gisenyi province, rwanda	gaseke, gisenyi province, rwanda	rwandan		0	0	3	-1	1
+10679	11390	leopold mujyambere	leopold mujyambere	17/03/1962	17 mar 1962	kigali, rwanda	kigali, rwanda	rwandan	rwanda	0	0	2	0	1
+10690	10935	yahia djouadi	yahia djouadi	01/01/1967	01 jan 1967	m'hamid, wilaya (province) of sidi bel abbes, algeria	m'hamid, sidi bel abbas, algeria	algerian		0	0	2	-1	1
+10691	10937	abid hammadou	abid hammadou	12/12/1965	12 dec 1965	(1) deb-deb, amenas, wilaya (province) of illizi (2) touggourt, wilaya (province) of ouargla, (1) algeria (2) algeria	touggourt, ouargla, algeria	algerian		0	0	0	-1	1
+10693	10936	ahmed deghdegh	ahmed deghdegh	17/01/1967	17 jan 1967	anser, wilaya (province) of jijel, algeria	anser, jijel, algeria	algerian		0	0	2	-1	1
+10747	10896	khalifa muhammad turki al-subaiy	khalifa muhammad turki al-subaiy	01/01/1965	01 jan 1965	doha, qatar	doha, qatar	qatar	qatar	0	0	2	1	1
+10753	11315	redouane el habhab	redouane el habhab	20/12/1969	20 dec 1969	casablanca, morocco	casablanca, morocco	(1) german (2) moroccan	germany	0	0	2	0	1
+10834	11353	abdul haq	abdul haq	10/10/1971	10 oct 1971	hetian area, xinjiang uighur autonomous region, china	chele county, khuttan area, xinjiang uighur autonomous region, china	chinese	china	0	0	2	0	1
+10906	11373	arif qasmani	arif qasmani	00/00/1944	circa 1944	pakistan		pakistani	pakistan	0	184	-1	0	1
+10907	11376	mohammed yahya mujahid	mohammed yahya mujahid	12/03/1961	12 mar 1961	lahore, punjab province, pakistan	lahore, punjab province, pakistan, sheikhupura, pakistan	pakistani		0	0	3	-1	1
+10908	11355	fazeel-a-tul shaykh abu mohammed ameen al-peshawari	fazeel-a-tul shaykh abu mohammed ameen al-peshawari	00/00/1961	circa 01 jan 1961	shunkrai village, sarkani district, konar province, afghanistan	shunkrai village, sarkani district, konar province, afghanistan	afghan		0	15	4	-1	1
+10929	11747	yasin ali baynah	yasin ali baynah	24/12/1965	circa 1966	""		(1) somali (2) swedish	somalia	0	176	-1	0	1
+11050	10728	akram turki hishan al-mazidih	akram turki hishan al mazidih	00/00/1974	1974	""				1	0	-1	-1	1
+11051	10727	ghazy fezza hishan al-mazidih	ghazy fezza hishan al mazidih	00/00/1974	1974	""				1	0	-1	-1	1
+11052	11493	muthanna harith al-dari	muthanna harith al-dari	16/06/1969	16 jun 1969	iraq		iraqi	iraq	0	0	-1	0	1
+11091	11311	ahmed abdi aw-mohamed	ahmed abdi aw-mohamed	10/07/1977	10 jul 1977	hargeysa, somalia	hargeysa, somalia	somali	somalia	0	0	2	0	1
+11091	11746	ahmed abdi aw-mohamed	ahmed abdi aw-mohamed	10/07/1977	10 jul 1977	hargeysa, somalia	hargeysa, somalia	somali	somalia	0	0	2	0	1
+11095	11741	fares mohammed mana'a	fares mohammed mana'a	08/02/1965	08 feb 1965	sadah, yemen	sadah, yemen			0	0	2	-1	1
+11096	12022	mohamed belkalem	mohamed belkalem	19/12/1969	19 dec 1969	hussein dey, algiers, algeria		algerian	algeria	0	0	-1	0	1
+11097	12023	tayeb nail	taleb nail	00/00/1972	circa 1972	faidh el batma, djelfa, algeria		algerian	algeria	1	184	-1	0	1
+11123	11982	qasim al-rimi	qasim al-rimi	05/06/1978	05 jun 1978	raymah village, sanaa governorate, yemen		yemeni	yemen	0	0	-1	0	1
+11205	12128	amir abdullah	amir abdullah	00/00/1972	1972	paktika province, afghanistan	paktika province, afghanistan	afghan		0	0	2	-1	1
+11206	12129	nasiruddin haqqani	nasiruddin haqqani	00/00/1972	1972	neka district, paktika province, afghanistan	afghanistan	afghan		0	0	1	-1	1
+11207	12127	gul agha ishakzai	gul agha ishakzai	00/00/1972	1972	band-e-temur, maiwand district, kandahar province, afghanistan	band-e-timor, kandahar, afghanistan			0	0	1	-1	1
+11207	23629	hidayatullah	inayatullah	00/00/1972	1972	band-e-temur, maiwand district, kandahar province, afghanistan	chahar darah district, kunduz province, afghanistan			2	0	1	-1	1
+11208	12109	anwar al-aulaqi	anwar al-aulaqi	21/04/1971	21 apr 1971	las cruces, new mexico, united states of america	las cruces, new mexico	(1) united states of america (2) yemeni	yemen	0	0	2	0	1
+11233	12479	parvis fattah	parviz fattah	00/00/1961	1961	""	urmia, iran, anzal, west azerbaijan province, iran		iran	1	0	0	-1	1
+11234	12057	mohammad reza naqdi	mohammad reza naqdi	00/00/1953	1953	(1) najaf (2) tehran, (1) iraq (2) iran	najaf, iraq, tehran, iran		iran	0	0	0	-1	1
+11276	12326	gaston iyamuremye	gaston iyamuremye	00/00/1948	1948	(1) musanze district, northern province (2) ruhengeri, rwanda	musanze district (northern province) rwanda, nyakinama, ruhengeri, rwanda	rwandan		0	0	1	-1	1
+11277	12321	felicien nsanzubukire	felicien nsanzubukire	00/00/1967	1967	(1) murama, kigali, rwanda (2)rubungo, kigali, rwanda (3),kinyinya, kigali, rwanda, rwanda	murama, kinyinya, rubungo, kigali, rwanda	rwanda	rwanda	0	0	3	1	1
+11279	12328	leodomir mugaragu	leodomir mugaragu	00/00/1953	1953	(1) kigali (2) rushashi, (northern province), rwanda	kigali, rwanda, rushashi (northern province), rwanda	rwandan		0	0	1	-1	1
+11583	12762	ismael ahmadi-moghadam	ismail ahmadi moghadam	00/00/1961	1961	tehran, iran	tehran, iran			2	0	2	-1	1
+11633	12561	khalil al-rahman haqqani	khalil al-rahman haqqani	00/00/1958	1958	sarana village, garda saray area, waza zadran district, paktia province, afghanistan		afghan	afghanistan	0	0	-1	0	1
+11634	12562	said jan 'abd al-salam	said jan 'abd al-salam	01/01/1972	01 jan 1972	""		afghan	afghanistan	0	0	-1	0	1
+11640	12608	saif al-islam qadhafi	saif al-islam qadhafi	25/06/1972	25 jun 1972	tripoli, libya	tripoli, libya			0	0	2	-1	1
+11648	12629	saadi qadhafi	saadi gaddafi	27/05/1973	27 may 1973	tripoli, libya	tripoli, libya			2	0	2	-1	1
+11649	12631	saif al-arab qadhafi	saif al-arab gaddafi	00/00/1982	1982	tripoli, libya	tripoli, libya			2	0	2	-1	1
+11650	12635	abdullah al-senussi	abdullah al-senussi	00/00/1949	1949	(1) - (2) anefif (kidal), (1) sudan (2) mali	sudan			0	0	0	-1	1
+11658	12634	abu bakr yunis jabir	abu bakr yunis jabir	00/00/1952	1952	jalo, libya	jalo, libya			0	0	2	-1	1
+11659	12633	matuq mohammed matuq	matuq mohammed matuq	00/00/1956	1956	khoms, libya	khoms, libya			0	0	2	-1	1
+11743	12669	ibrahim hassan tali al-asiri	ibrahim hassan tali al-asiri	18/04/1982	18 apr 1982	riyadh, saudi arabia	riyadh, saudi arabia	saudi arabian	saudi arabia	0	0	2	0	1
+11779	12945	abdollah araghi	abdollah araghi	00/00/1945	1945	""	iran	iranian		0	0	0	-1	1
+11788	12257	hossein taeb	hossein taeb	00/00/1963	1963	tehran, iran	tehran, iran			0	0	2	-1	1
+11795	12596	abbas jafari-dolatabadi	abbas jafari dolatabadi	00/00/1953	1953	yazd,isfahan (mehr news agency), iran		iranian		1	0	-1	-1	1
+11797	12252	gholam-hossein mohseni-ejei	qolam-hossein mohseni-ejei	00/00/1956	circa 1956	ejiyeh	ejiyeh, iran			2	184	1	-1	1
+11798	12254	saeed mortazavi	saeed mortazavi	00/00/1967	1967	meybod, yazd, iran	meibod, yazd, iran			0	0	2	-1	1
+11906	12812	jamil hassan	jamil hassan	07/07/1953	1953	qusayr homs, syria	syria			0	187	1	-1	1
+11909	12725	maher al-assad	maher al-assad	08/12/1967	08 dec 1967	damascus, syria	damascus, syria	syrian	syria	0	0	2	0	1
+11910	12740	mohammad ibrahim al-shaar	mohammad ibrahim al-shaar	00/00/1950	1950	latakia province, syria	lattakia province, syria	syrian		0	0	1	-1	1
+11913	10725	rami makhlouf	rami makhluf	10/07/1969	10 jul 1969	damascus, syria	syria		syria	1	0	1	-1	1
+11928	12735	bashar al-assad	bashar al-assad	11/09/1965	11 sep 1965	damascus, syria	damascus, syria	syrian	syria	0	0	2	0	1
+11931	12736	farouk al shara	farouk al-shara	10/12/1938	1938	daraa governorate, syria	dar'a, syria			1	343	1	-1	1
+11933	12845	mohammad hamsho	muhammad hamsho	20/05/1966	20 may 1966	""	damascus, syria	syrian	syria	1	0	0	0	1
+11934	22259	iyad makhlouf	iyad makhluf	21/01/1973	21 jan 1973	damascus, syria		syrian		1	0	-1	-1	1
+11935	16235	bassam al hassan	bassam al-hassan	00/00/1961	1961	sheen, homs, syria	homs, syria	syrian		1	0	2	-1	1
+11937	22260	ihab makhlouf	ihab makhluf	21/01/1973	21 jan 1973	damascus, syria		syrian		1	0	-1	-1	1
+12012	12787	othman al-ghamdi	othman al-ghamdi	27/05/1979	27 may 1979	(1) - (2) shabwa, (1) saudi arabia (2) yemen		(1) saudi arabian (2) yemeni	saudi arabia	0	0	-1	0	1
+12020	12597	abdul rachim ba'asyir	abdul rahim ba'asyir	16/11/1974	16 nov 1974	(1) solo (2) sukoharjo, central java, (1) indonesia (2) indonesia	solo, indonesia, sukoharjo, central java, indonesia	indonesian	indonesia	1	0	1	0	1
+12021	12599	umar patek	umar patek	20/07/1966	20 jul 1966	central java, indonesia	central java, indonesia	indonesian	indonesia	0	0	2	0	1
+12024	12738	ali habib mahmoud	ali habib mahmoud	00/00/1939	1939	tartous, syria	tartous, syria			0	0	2	-1	1
+12029	12824	hassan mahat omar	hassan mahat omar	10/04/1979	10 apr 1979	garissa, kenya	garissa, kenya	ethiopian (possibly)	kenya	0	0	2	0	1
+12030	12823	omar hammami	omar hammami	06/05/1984	06 may 1984	alabama, united states of america	alabama, usa	united states of america. also believed to hold syrian nationality		0	0	1	-1	1
+12037	12598	muhammad jibril abdul rahman	muhammad jibril abdul rahman	03/03/1979	03 mar 1979	east lombok, west nusa tenggara, indonesia	east lombok, west nusa tenggara, indonesia	indonesian	indonesia	0	0	3	0	1
+12038	12403	mati ur rehman	mati ur-rehman	00/00/1977	1977	chak number 36/dnb, rajkan, madina colony, bahawalpur district, punjab province, pakistan		pakistani	pakistan	1	0	-1	0	1
+12050	13112	munir adanov	munir adanov	00/00/1951	1951	homs, syria				0	0	-1	-1	1
+12148	12889	abd al-rahman ould muhammad al-husayn ould muhammad salim	'abd al-rahman ould muhammad al-husayn ould muhammad salim	00/00/1981	1981	saudi arabia	saudi arabia	mauritanian	mauritania	1	0	1	0	1
+12156	12924	abdul aziz abbasin	abdul aziz abbasin	00/00/1969	1969	sheykhan village, pirkowti area, orgun district, paktika province, afghanistan	sheykhan village, pirkowti area, orgun district, paktika province, afghanistan			0	0	5	-1	1
+12189	12253	sadeq mahsouli	sadeq mahsouli	00/00/1959	1959	oroumieh, iran	orumieh, iran			0	0	1	-1	1
+12202	12255	heydar moslehi	heydar moslehi	00/00/1956	1956	isfahan, iran	isfahan, iran			0	0	2	-1	1
+12204	12915	jamil mukulu	jamil mukulu	01/01/1964	01 jan 1964	ntoke village, ntenjeru sub county, kayunga district, uganda	kayunga, uganda, ntoke village, ntenjeru sub county, kayunga district, uganda	ugandan	uganda	0	0	4	0	1
+12205	12930	hamed abdollahi	hamed abdollahi	11/08/1960	11 aug 1960	iran		iranian	iran	0	0	-1	0	1
+12206	12929	manssor arbabsiar	manssor arbabsiar	06/03/1955	06 mar 1955	iran	iran	(1) iranian (2) us	united states	0	0	1	0	1
+12208	11177	abdul reza shahlai	abdul reza shahlai	00/00/1957	circa 1957	iran				0	184	-1	-1	1
+12212	15276	fahd jasim al-freij	fahd jassem al-freij	01/01/1950	01 jan 1950	hama, syria	hama, syria	syrian	syria	2	0	2	0	1
+12412	15194	mohammad al-jleilati	mohammad al-jleilati	00/00/1945	1945	damascus, syria	damascus, syria	syrian		0	0	2	-1	1
+12439	12211	yong chol kim	yong chol kim	00/00/1946	circa 1947	pyongan-pukto, democratic people's republic of korea (dprk)	pyongan-pukto, north korea	democratic people's republic of korea (dprk)		0	181	1	-1	1
+12454	12795	ahmad zia agha	ahmad zia agha	00/00/1974	1974	maiwand district, kandahar province, afghanistan	maiwand district, qandahar province, afghanistan			0	0	2	-1	1
+12455	12797	fazl rabi	fazl rabi	00/00/1972	1972	(1) kohe safi district, parwan province (2) kapisa province (3) nangarhar province (4) kabul province, (1) afghanistan (2) afghanistan (3) afghanistan (4) afghanistan	kohe safi district, parwan province, afghanistan, kapisa province, afghanistan, nangarhar province, afghanistan, kabul province, afghanistan	afghan		0	0	0	-1	1
+12456	12798	mohammad aman akhund	mohammad aman akhund	00/00/1970	1970	bande tumur village, maiwand district, kandahar province, afghanistan	bande tumur village, maiwand district, qandahar province, afghanistan			0	0	3	-1	1
+12500	13058	monir chouka	monir chouka	30/07/1981	30 jul 1981	bonn, germany	bonn, germany	(1) german (2) moroccan	morocco	0	0	2	0	1
+12501	13057	yassin chouka	yassin chouka	11/12/1984	11 dec 1984	bonn, germany	bonn, germany	(1) german (2) moroccan	morocco	0	0	2	0	1
+12502	13059	mevlut kar	mevlut kar	25/12/1978	25 dec 1978	ludwigshafen, germany	ludwigshafen, germany	turkish	germany	0	0	2	0	1
+12506	15227	emad abdul-ghani sabouni	imad abdul-ghani sabouni	00/00/1964	1964	damascus, syria	damascus, syria	syrian		1	0	2	-1	1
+12550	29072	bushra al-assad	bushra al-assad	24/10/1960	24 oct 1960	""	egypt		syria	0	0	0	-1	1
+12555	12923	fazal rahim	fazal rahim	24/01/1973	24 jan 1973	kabul, afghanistan	kabul, afghanistan	afghan	afghanistan	0	0	2	0	1
+12556	13099	abdul samad achekzai	abdul samad achekzai	00/00/1970	1970	afghanistan		afghan	afghanistan	0	0	-1	0	1
+12627	13095	mochammad achwan	mochammad achwan	04/05/1946	04 may 1946	tulungagung, indonesia	tulungagung, indonesia	indonesian	indonesia	0	0	2	0	1
+12628	13097	abdul rosyid ridho ba'asyir	abdul rosyid ridho ba'asyir	31/01/1974	31 jan 1974	sukoharjo, indonesia	sukoharjo, indonesia	indonesian	indonesia	0	0	2	0	1
+12629	12890	mustafa hajji muhammad khan	mustafa hajji muhammad khan	00/00/1976	1976	(1) al-madinah (2) sangrar, sindh province, (1) saudi arabia (2) pakistan	madinah, saudi arabia, sangrar, sindh province, pakistan	(1) pakistani (2) saudi arabian	pakistan	0	0	1	0	1
+12630	12917	hafiz abdul salam bhuttavi	hafiz abdul salam bhuttavi	00/00/1940	1940	gujranwala, punjab province, pakistan	gujranwala, punjab province, pakistan	pakistani	pakistan	0	0	3	0	1
+12631	12916	zafar iqbal	zafar iqbal	04/10/1953	04 oct 1953	masjid al-qadesia, 4 lake road, lahore, pakistan		pakistani	pakistan	0	0	-1	0	1
+12632	12922	abdur rehman	abdur rehman	03/10/1965	03 oct 1965	mirpur khas, pakistan	mirpur khas, pakistan	pakistani	pakistan	0	0	2	0	1
+12634	29068	asma al-assad	asma al-assad	11/08/1975	11 aug 1975	london, united kingdom	acton, united kingdom	(1) british (2) syrian	syria	0	0	1	0	1
+12635	29076	manal al-assad	manal al-assad	02/02/1970	02 feb 1970	damascus, syria	damascus, syria	syrian	syria	0	0	2	0	1
+12646	15553	ezzatollah zarghami	ezzatollah zarghami	22/07/1959	1959	dezful, iran	dezful, khuzentan province, iran			0	202	2	-1	1
+12647	15550	reza taghipour	reza taghipour	00/00/1957	1957	maragheh, iran	maragheh, iran			0	0	2	-1	1
+12650	15991	asghar mir-hejazi	asghar mir-hejazi	08/09/1946	08 sep 1946	esfahan, iran	esfahan, iran		iran	0	0	2	-1	1
+12670	13471	adib mayaleh	adib mayaleh	15/05/1955	1955	bassir, syria	daraa, syria	(1) syrian (2) french (naturalised)		0	134	1	-1	1
+12690	12881	bouthaina shaaban	bouthaina shaaban	00/00/1953	1953	homs, syria	homs, syria	syrian		0	0	2	-1	1
+12700	13158	bakht gul	bakht gul	00/00/1980	1980	aki village, zadran district, paktiya province, afghanistan	aki village, zadran district, paktiya province, afghanistan	afghan	afghanistan	0	0	4	0	1
+12726	30084	ghassan jaoudat ismail	ghassan jaoudat ismail	00/00/1960	1960	drekish, tartous region, syria	junaynat ruslan, darkoush, drekish, tartous, syria	syrian	syria	0	0	2	0	1
+12735	13357	aboud rogo mohammed	aboud rogo mohammed	11/11/1960	11 nov 1960	lamu island, kenya	kenya, lamu island, kenya		kenya	0	0	2	-1	1
+12737	13369	abubaker shariff ahmed	abubaker shariff ahmed	00/00/1962	1962	kenya	kenya		kenya	0	0	1	-1	1
+12760	15216	qadri jamil	qadri jamil	00/00/1952	1952	damascus, syria	damascus, syria			0	0	2	-1	1
+12809	15517	aamir ali chaudhry	aamir ali chaudhry	03/08/1986	03 aug 1986	""		pakistani	pakistan	0	0	-1	0	1
+12812	15527	sultani makenga	sultani makenga	25/12/1973	25 dec 1973	rutshuru, democratic republic of the congo	rutshuru, democratic republic of the congo	democratic republic of the congo		0	0	2	-1	1
+12813	15581	muhammad qasim	mohammed qasim	00/00/1976	1976	(1) minar village, garmser district, helmand province (2) darweshan village, garmser district, helmand province, (1) afghanistan (2) afghanistan	pakistan	afghan	pakistan	2	0	0	0	1
+12828	15615	baudoin ngaruye	baudoin ngaruye	00/00/1978	1978	(1) bibwe (2) lusamambo, lubero territory, democratic republic of the congo	lusamambo, lubero territory, democratic republic of the congo	democratic republic of the congo		0	0	2	-1	1
+12859	15610	hamad el khairy	hamad el khairy	00/00/1970	1970	nouakchott, mauritania	nouakchott, mauritania	(1) mauritanian (2) malian	mauritania	0	0	2	0	1
+12860	15611	ahmed el tilemsi	ahmed el tilemsi	00/00/1977	1977	tabankort, mali	mali	malian	mali	0	0	1	0	1
+12883	15945	abu muhammad al-jawlani	abu muhammad al-jawlani	00/00/1975	1975	syria		syrian	syria	0	0	-1	0	1
+12884	16280	muhammad jamal abd-al rahim ahmad al-kashif	muhammad jamal 'abd-al rahim ahmad al-kashif	01/01/1964	01 jan 1964	cairo, egypt	cairo, egypt	egyptian	egypt	1	0	2	0	1
+12886	16225	mohamed lahbous	mohamed lahbous	00/00/1978	1978	mali		malian	mali	0	0	-1	0	1
+12890	16000	abd-al-hamid al-masli	'abd-al-hamid al-masli	00/00/1976	1976	(1) darnah (2) danar, (1) libya (2) libya	darnah, libya, danar, libya	libyan	libya	1	0	0	0	1
+12912	16664	viktor alekseevich ozerov	viktor alekseevich ozerov	05/01/1958	05 jan 1958	abakan, khakassia, russian federation	abakan, khakassia, russia	russian		0	0	2	-1	1
+12920	16668	sergei vladimirovich zheleznyak	sergei vladimirovich zheleznyak	30/07/1970	30 jul 1970	st petersburg (formerly leningrad), russian federation	saint petersburg, russia	russian		0	0	0	-1	1
+12922	16642	sergey valeryevich aksyonov	sergey valeryevich aksyonov	26/11/1972	26 nov 1972	beltsy (balti), moldovian ssr (now republic of moldovia)	balti, moldova	ukrainian		0	0	0	-1	1
+12926	16678	aleksei mikhailovich chaliy	aleksei mikhailovich chaliy	13/06/1961	13 jun 1961	moscow,sevastopol, russian federation,ukraine	sevastopol, ukraine	russian		0	0	2	-1	1
+12935	16649	dmitry olegovich rogozin	dmitry olegovich rogozin	21/12/1963	21 dec 1963	moscow, russian federation	moscow, russia	russian		0	0	1	-1	1
+12963	18655	sergey gennadevich tsyplakov	sergey gennadevich tsyplakov	01/05/1983	01 may 1983	(1) donetsk (2) kharsyzk, donetsk region, ukrainian ssr		ukrainian		0	0	-1	-1	1
+12964	16961	igor vsevolodovich girkin	igor vsevolodovich girkin	17/12/1970	17 dec 1970	moscow, russian federation		russian	russia	0	0	-1	0	1
+12968	22411	petr grigorievich jarosh	petr grigorievich jarosh	30/01/1971	30 jan 1971	skvortsovo village, simferopol region, crimea, ukraine	skvortsovo village, simferopol region, crimea, ukraine	ukrainian		0	0	4	-1	1
+12969	16949	oleg grigorievich kozyura	oleg grigorievich kozyura	19/12/1962	19 dec 1962	(1) simferopol, crimea (2) zaporozhye, ukraine	zaporozhye, ukraine	ukrainian		0	0	1	-1	1
+12970	16935	viacheslav ponomaryov	vyacheslav ponomaryov	02/05/1965	02 may 1965	sloviansk (donetsk oblast), ukrainian ssr		ukrainian		1	0	-1	-1	1
+12971	17083	igor nikolaevich bezler	igor nikolayevich bezler	30/12/1965	1965	simferopol, ukraine		russian		1	363	-1	-1	1
+12973	17163	oleh anatolevich tsarov	oleh anatolievich tsaryov	02/06/1970	02 jun 1970	dnepropetrovsk (now dnipro), ukraine	dnepropetrovsk, ukraine	ukrainian		2	0	1	-1	1
+12977	17261	natalia vladimirovna poklonskaya	natalia vladimirovna poklonskaya	18/03/1980	18 mar 1980	(1) mikhailovka, voroshilovgrad region (2) yevpatoria, ukrainian ssr (now ukraine)	eupatoria, ukraine	ukrainian,russian		0	0	0	-1	1
+12988	17321	kamal eddin tu'ma	kamal eddin tu'ma	00/00/1959	1959	damascus, syria	damascus, syria	syrian		0	0	2	-1	1
+12992	17320	khodr orfali	khodr orfali	00/00/1956	1956	deir ezzor	deir ezzor, syria			0	0	1	-1	1
+12999	16724	nourreddine adam	noureddine adam	00/00/1969	1969 to 1971	(1) ndele (2) algenana, (1) central african republic (2) sudan	ndele, central african republic	(1) central african republic (2) sudan	central african republic	1	0	0	0	1
+13006	15009	abubakar shekau	abubakar shekau	00/00/1969	1969	shekau village, yobe state, nigeria	shekau village, yobe state, nigeria	nigerian		0	0	3	-1	1
+13012	17188	alexander khryakov	alexander khryakov	06/11/1958	06 nov 1958	donetsk, ukraine	donetsk, ukraine	ukrainian		0	0	2	-1	1
+13017	17426	igor venediktovich plotnitskii	igor venediktovich plotnitsky	24/06/1964	24 jun 1964	luhansk, possibly in kelmentsi, chernivtsi oblast, ukrainian ssr (now ukraine)	kelmentsi, ukraine	russian		2	0	0	-1	1
+13021	17267	santino deng wol	santino deng wol	09/11/1962	09 nov 1962	aweil, sudan/south sudan	aweil, south sudan, aweil, sudan			0	0	1	-1	1
+13022	16912	peter gadet	peter gadet	00/00/1957	1957 to 1959	(1) mayom county, unity state (2) mayan, unity state	mayon county unity state, mayan, unity state			0	0	1	-1	1
+13024	15488	amr armanazi	amr armanazi	07/02/1944	07 feb 1944	""		syrian		0	0	-1	-1	1
+13042	23343	ramzan akhmadovitch kadyrov	ramzan akhmatovich kadyrov	05/10/1976	05 oct 1976	tsentaroy, chechnya, russian federation	tsentoroi, chechen republic, russia		russia	2	0	0	-1	1
+13065	16936	valery vladimirovich kaurov	valery vladimirovich kaurov	02/04/1956	02 apr 1956	odessa, ukraine	odessa, ukraine	ukrainian		0	0	2	-1	1
+13066	17301	serhii anatoliyovych zdriliuk	serhii anatoliyovych zdriliuk	23/06/1972	23 jun 1972	frontovka village, vinnytsia region, ukraine	vinnytsia region, ukraine	(1) ukrainian (2) russian	russia	0	0	2	0	1
+13067	17265	vladimir antyufeyev	vladimir antyufeyev	19/02/1951	19 feb 1951	novosibirsk, russian federation	novosibirsk, russia	russian		0	0	1	-1	1
+13075	16680	yuri valentinovich kovalchuk	yuri valentinovich kovalchuk	25/07/1951	25 jul 1951	leningrad (st petersburg), russian federation	saint petersburg, russia	russian		0	0	0	-1	1
+13084	16499	abd al-rahman muhammad zafir al-dubaysi al-juhni	'abd al-rahman muhammad zafir al-dubaysi al-juhni	04/12/1971	04 dec 1971	kharj, saudi arabia	kharj, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13085	17208	abdul mohsen abdullah ibrahim al-sharikh	abdul mohsen abdullah ibrahim al-sharikh	13/07/1985	13 jul 1985	saqra, saudi arabia	shagraa, saudi arabia	saudi arabian	saudi arabia	0	0	1	0	1
+13086	17066	abu mohammed al-adnani	abu mohammed al-adnani	00/00/1977	1977	binnish, syrian arab republic	banash, syria	iraqi	syria	0	0	0	0	1
+13088	17189	hamid hamad hamid al-'ali	hamid hamad hamid al-'ali	17/11/1960	17 nov 1960	kuwait	qatar	kuwait	kuwait	0	0	0	1	1
+13089	17185	said arif	said arif	05/12/1965	05 dec 1965	oran, algeria	oran, algeria	algerian	algeria	0	0	2	0	1
+13093	17123	miroslav vladimirovich rudenko	miroslav vladimirovich rudenko	21/01/1983	21 jan 1983	debaltsevo, ukraine	debaltsevo, donetsk region, ukraine	ukrainian		0	0	2	-1	1
+13097	19030	andrei nikolaevich rodkin	andrei nikolaevich rodkin	23/09/1976	23 sep 1976	moscow, russian federation		ukrainian		0	0	-1	-1	1
+13124	16708	alexander mikhailovich babakov	alexander mikhailovich babakov	08/02/1963	08 feb 1963	chisinau, moldovan ssr (now republic of moldova)	chisinau, moldova		russia	0	0	1	-1	1
+13126	15692	ahmed abdullah saleh al-khazmari al zahrani	ahmed abdullah saleh al-khazmari al-zahrani	15/09/1978	15 sep 1978	dammam, saudi arabia	dammam, saudi arabia	saudi arabian		1	0	2	-1	1
+13127	15270	azzam abdullah zureik al-maulid al-subhi	azzam abdullah zureik al-maulid al-subhi	12/04/1976	12 apr 1976	al baraka, saudi arabia	al baraka, saudi arabia	saudi arabian	saudi arabia	0	0	2	0	1
+13128	17048	anders cameroon ostensvig dale	anders cameroon ostensvig dale	19/10/1978	1978	oslo, norway	oslo, norway	norwegian	norway	0	291	2	0	1
+13129	12960	ibrahim suleiman hamad al-hablain	ibrahim suleiman hamad al-hablain	17/12/1984	17 dec 1984	buraidah, saudi arabia	buraidah, saudi arabia	saudi arabian	saudi arabia	0	0	2	0	1
+13130	16478	saifallah ben hassine	seifallah ben hassine	08/11/1965	08 nov 1965	tunis, tunisia		tunisian		1	0	-1	-1	1
+13131	16449	'abd al-rahman bin 'umayr al-nu'aymi	'abd al-rahman bin 'umayr al-nu'aymi	00/00/1954	1954	doha, qatar		qatar		0	0	-1	-1	1
+13132	17166	'abd al-rahman khalaf 'ubayd juday' al-'anizi	'abd al-rahman khalaf 'ubayd juday' al-'anizi	06/03/1973	01 jan 1973 to 31 dec 1973	""		kuwaiti		0	64	-1	-1	1
+13133	15591	anas hasan khattab	anas hasan khattab	07/04/1986	07 apr 1986	damascus, syria	damascus, syria	syrian		0	0	2	-1	1
+13134	15590	maysar ali musa abdallah al-juburi	maysar ali musa abdallah al-juburi	01/06/1976	01 jun 1976	(1) al-shura, mosul (2) harara, ninawa, (1) iraq (2) iraq	al-shura, mosul, iraq, harara, ninawa province, iraq	iraqi	iraq	0	0	0	0	1
+13135	17174	shafi sultan mohammed al-ajmi	shafi sultan mohammed al-ajmi	01/01/1973	01 jan 1973	warah, kuwait	warah, kuwait	kuwaiti	kuwait	0	0	2	0	1
+13136	16498	'abd al-rahman muhammad mustafa al-qaduli	abd al-rahman muhammad mustafa al-qaduli	00/00/1957	1957	mosul, ninawa province, iraq	mosul, ninawa province, iraq	iraqi	iraq	1	0	3	0	1
+13144	16518	yahya haqqani	yahya haqqani	00/00/1978	1978	""	miram shah, pakistan	afghan	afghanistan	0	0	0	0	1
+13145	16517	saidullah jan	saidullah jan	00/00/1982	1982	giyan district, paktika province, afghanistan	giyan district, paktika province, afghanistan		pakistan	0	0	3	-1	1
+13146	16519	muhammad omar zadran	muhammad omar zadran	00/00/1958	1958	sultan kheyl village, spera district, khost province, afghanistan	sultan kheyl village, spera district, khowst province, afghanistan			0	0	3	-1	1
+13147	17284	maalim salman	maalim salman	00/00/1979	1978 to 1980	nairobi, kenya	nairobi, kenya			0	365	2	-1	1
+13150	18008	ahmed diriye	ahmed diriye	00/00/1972	1972	somalia	somalia			0	0	1	-1	1
+13162	20948	muhammad nafi bilal	muhammad nafi bilal	25/05/1971	25 may 1971	""		syrian		0	0	-1	-1	1
+13174	19035	aleksandr igorevich kofman	aleksandr igorevich kofman	30/08/1977	30 aug 1977	makivka, donetsk oblast, ukraine		ukrainian		0	0	-1	-1	1
+13182	18656	vladyslav nykolayevych deynego	vladyslav nykolayevych deynego	12/03/1964	12 mar 1964	(1) romny, sumy oblast (2) (possibly) gornyatskiy village, perevalsk district, luhansk oblast, ukrainian ssr (now ukraine)		ukrainian		0	0	-1	-1	1
+13190	17386	abdullah yahya al hakim	abdullah yahya al hakim	00/00/1984	1984 to 1986	(1) dahyan (2) sa�dah governorate, (1) yemen (2) yemen	dahyan, yemen, sa'dah governorate, yemen	yemen	yemen	0	0	0	1	1
+13191	17368	abd al-khaliq al-huthi	abd al-khaliq al-huthi	00/00/1984	1984	""		yemen		0	0	-1	-1	1
+13192	17387	ali abdullah saleh	ali abdullah saleh	21/03/1942	21 mar 1942	(1) bayt al-ahmar, sana�a governorate (2) sana�a (3) sana'a, sanhan, al-rib' al-sharqi, (1) yemen (2) yemen (3) -	bayt al-ahmar, sana'a governorate, yemen, sana'a, yemen	yemen	yemen	0	0	0	1	1
+13194	17292	ashraf muhammad yusuf 'uthman 'abd al-salam	ashraf muhammad yusuf 'uthman 'abd al-salam	00/00/1984	01 jan 1984 to 31 dec 1984	iraq	iraq	jordan	jordan	0	0	1	1	1
+13195	17290	ibrahim 'isa hajji muhammad al-bakr	ibrahim 'isa hajji muhammad al-bakr	12/07/1977	12 jul 1977	qatar	qatar	qatar	qatar	0	0	1	1	1
+13196	17283	tarkhan tayumurazovich batirashvili	tarkhan tayumurazovich batirashvili	00/00/1982	1982	akhmeta, village birkiani, georgia	akhmeta, village birkiani, georgia	georgian	georgia	0	0	3	0	1
+13197	17291	'abd al-malik muhammad yusuf 'uthman 'abd al-salam	'abd al-malik muhammad yusuf 'uthman 'abd al-salam	13/07/1989	13 jul 1989	""		jordan	jordan	0	0	-1	1	1
+13228	21248	bayan bitar	bayan bitar	08/03/1947	08 mar 1947	""				0	0	-1	-1	1
+13232	18996	george haswani	george haswani	26/09/1946	26 sep 1946	yabrud, syria	yabrud, syria	(1) syrian (2) russian	russia	0	0	2	0	1
+13242	17274	angga dimas pershada	angga dimas pershada	04/03/1985	04 mar 1985	jakarta, indonesia	jakarta, indonesia	indonesian	indonesia	0	0	2	0	1
+13243	17275	bambang sukirno	bambang sukirno	05/04/1975	05 apr 1975	indonesia	indonesia	indonesian	indonesia	0	0	1	0	1
+13244	17276	wiji joko santoso	wiji joko santoso	14/07/1975	14 jul 1975	rembang, jawa tengah, indonesia	rembang, jawa tengah, indonesia	indonesian	indonesia	0	0	3	0	1
+13246	17668	maulana fazlullah	maulana fazlullah	00/00/1974	1974	kuza bandai village, swat valley, khyber pakhtunkhawa province, pakistan	swat, pakistan, kuza bandai village, pakistan			0	0	2	-1	1
+13264	18226	simon gatwech dual	simon gatwech dual	00/00/1953	1953	(1) akobo, jonglei state (2) uror county, jonglei state, (1) sudan/south sudan (2) sudan/south sudan	akobo, jonglei state, south sudan, akobo, jonglei state, sudan, uror county, jonglei state, south sudan, uror county, jonglei state, sudan			0	0	1	-1	1
+13265	16910	james koang chuol	james koang chuol	00/00/1961	1961	""		south sudan		0	0	-1	-1	1
+13266	16651	marial chanuong yol mangok	marial chanuong yol mangok	01/01/1960	01 jan 1960	yirol, lakes state	yirol, lakes state	south sudan		0	0	2	-1	1
+13271	18427	alfred yekatom	alfred yekatom	23/06/1976	23 jun 1976	central african republic	central african republic	central african republic	central african republic	0	0	1	1	1
+13272	18428	habib soussou	habib soussou	13/03/1980	13 mar 1980	central african republic		central african republic	central african republic	0	0	-1	1	1
+13273	18429	oumar younous	oumar younous	02/04/1970	02 apr 1970	""	tullus, southern darfur, sudan	sudan	sudan	0	0	0	1	1
+13277	17286	abd al-aziz aday zimin al-fadhil	'abd al-aziz aday zimin al-fadhil	27/08/1981	27 aug 1981	kuwait	kuwait			1	0	1	-1	1
+13279	17285	hamad awad dahi sarhan al-shammari	hamad awad dahi sarhan al-shammari	31/01/1984	31 jan 1984	""		kuwaiti	kuwait	0	0	-1	0	1
+13280	18047	sa'd bin sa'd muhammad shariyan al-ka'bi	sa'd bin sa'd muhammad shariyan al-ka'bi	15/02/1972	15 feb 1972	""		qatar	qatar	0	0	-1	1	1
+13285	18629	aqsa mahmood	aqsa mahmood	11/05/1994	11 may 1994	glasgow, scotland, united kingdom	glasgow, united kingdom	british	united kingdom	0	0	2	0	1
+13286	18645	nasir muthana	nasser muthana	29/04/1994	1993 to 1995	heath, cardiff, wales, united kingdom	cardiff, united kingdom	british	united kingdom	2	483	2	0	1
+13288	18630	sally-anne frances jones	sally-anne frances jones	17/11/1968	17 nov 1968	greenwich, greater london, united kingdom	greenwich, england	british	united kingdom	0	0	1	0	1
+13289	18635	boubaker ben habib ben al-hakim	boubaker ben habib ben ali hakim	01/08/1983	01 aug 1983	paris, france	paris, france	(1) french (2) tunisian	tunisia	2	0	2	0	1
+13290	18633	peter cherif	peter cherif	26/08/1982	01 jan 1982 to 31 dec 1982	paris, 20th district, france		french	france	0	237	-1	0	1
+13291	18637	maxime hauchard	maxime hauchard	17/03/1992	17 mar 1992	saint aubin les elbeuf, normandy, france	normandy, france	french	france	0	0	2	0	1
+13292	17282	amru al-absi	amru al-absi	00/00/1979	1979	saudi arabia	saudi arabia			0	0	1	-1	1
+13294	18589	mu'tassim yahya 'ali al-rumaysh	mu'tassim yahya 'ali al-rumaysh	04/01/1973	04 jan 1973	jeddah, saudi arabia	jeddah, saudi arabia	yemeni	yemen	0	0	2	0	1
+13297	18651	aseel muthana	aseel muthana	22/11/1996	1996 to 1997	cardiff, united kingdom		british	united kingdom	0	326	-1	0	1
+13298	18963	maghomed maghomedzakirovich abdurakhmanov	maghomed maghomedzakirovich abdurakhmanov	24/11/1974	24 nov 1974	khadzhalmahi village, levashinskiy district, republic of dagestan, russia	khadzhalmahi village, levashinskiy district, republic of dagestan, russia	russian	russia	0	0	4	0	1
+13306	18688	torek agha	torek agha	00/00/1960	1960	(1) kandahar province (2) pishin, baluchistan province, (1) afghanistan (2) pakistan	kandahar province, afghanistan, pishin, balochistan province, pakistan			0	0	0	-1	1
+13308	19129	haroun gaye	haroun gaye	30/01/1968	30 jan 1968	""				0	0	-1	-1	1
+13309	19128	eugene barret ngaikosset	eugene barret ngaikosset	08/10/1967	08 oct 1967	""	bossangoa, central african republic		central african republic	0	0	0	-1	1
+13312	17300	abd al-baset azzouz	abd al-baset azzouz	07/02/1966	07 feb 1966	doma, libya	doma, libya	libyan		0	0	2	-1	1
+13314	17279	nusret imamovic	nusret imamovic	26/09/1971	26 sep 1971	miljanovci, kalesija municipality, bosnia	miljanovci, kalesija municipality, bosnia	bosnia and herzegovina	bosnia and herzegovina	0	0	3	1	1
+13315	17296	muhannad al-najdi	muhannad al-najdi	19/05/1984	19 may 1984	al-duwadmi, saudi arabia	al-duwadmi, saudi arabia	saudi arabian	saudi arabia	0	0	2	0	1
+13316	18590	morad laaboudi	morad laaboudi	26/02/1993	26 feb 1993	morocco		moroccan	morocco	0	0	-1	0	1
+13317	18591	ali musa al-shawakh	ali musa al-shawakh	00/00/1973	01 jan 1973 to 31 dec 1973	sahl village, raqqa province, syrian arab republic	sahl village, raqqa province, syria	syrian	syria	0	0	2	0	1
+13318	18600	husayn al-salihin salih al-sha'iri	husayn al-salihin salih al-sha'iri	00/00/1975	01 jan 1975 to 31 dec 1975	derna, libya	darna, libya	libyan	libya	0	0	1	0	1
+13319	18603	mounir ben dhaou ben brahim ben helal	mounir ben dhaou ben brahim ben helal	10/05/1983	10 may 1983	ben guerdane, tunisia	ben guerdane, tunisia	tunisian		0	0	2	-1	1
+13320	17280	mohammed abdel-halim hemaida saleh	mohammed abdel-halim hemaida saleh	22/09/1988	22 sep 1988	alexandria, egypt	alexandria, egypt	egyptian	egypt	0	0	2	0	1
+13349	19348	nayf salam muhammad ujaym al-hababi	nayf salam muhammad ujaym al-hababi	00/00/1980	01 jan 1979 to 31 dec 1981	saudi arabia	saudi arabia	(1) saudi arabia (2) qatar	saudi arabia	0	365	1	0	1
+13350	19449	turki mubarak abdullah ahmad al-binali	turki mubarak abdullah ahmad al-binali	03/09/1984	03 sep 1984	al muharraq, bahrain	al muharraq, bahrain	bahrain (citizenship revoked in january 2015)	bahrain	0	0	2	0	1
+13352	18620	tuah febriwansyah	tuah febriwansyah	18/02/1968	18 feb 1968	jakarta, indonesia	jakarta, indonesia	indonesia	indonesia	0	0	2	1	1
+13353	19448	husayn juaythini	husayn juaythini	03/05/1977	03 may 1977	nuseirat refugee camp, gaza strip, palestinian territories	al-nusayirat refugee camp, gaza	palestinian		0	0	0	-1	1
+13354	18621	muhammad sholeh ibrahim	muhammad sholeh ibrahim	00/09/1958	sep 1958	demak, indonesia	demak, indonesia	indonesia	indonesia	0	0	2	1	1
+13376	20239	aslan avgazarovich byutukaev	aslan avgazarovich byutukaev	22/10/1974	22 oct 1974	kitaevka, novoselitskiy district, stavropol region, russian federation	kitaevka, novoselitskiy region, stavropol territory, the russian federation	russian		0	0	1	-1	1
+13377	20240	ayrat nasimovich vakhitov	ayrat nasimovich vakhitov	27/03/1977	27 mar 1977	naberezhnye chelny, republic of tartarstan, russian federation	naberezhnye chelny, republic of tatarstan, russia	russian		0	0	1	-1	1
+13378	19930	ali kony	ali kony	00/00/1992	1992	""				0	0	-1	-1	1
+13379	19929	salim kony	salim kony	00/00/1991	1991	""				0	0	-1	-1	1
+13398	20965	ali al-zafir	ali al-zafir	00/00/1962	1962	tartus, syria	tartous, syria	syrian		0	0	1	-1	1
+13402	20968	ali hammoud	ali hammud	00/00/1964	1964	tartus, syria	tartous, syria			1	0	1	-1	1
+13404	20963	ma'moun hamdan	mamun hamdan	00/00/1958	1958	damascus, syria	damascus, syria			2	0	2	-1	1
+13406	20967	ahmad al-hamo	ahmad al-hamo	00/00/1947	1947	""				0	0	-1	-1	1
+13413	20962	duraid durgham	dureid durgham	00/00/1964	1964	""				1	0	-1	-1	1
+13433	20419	gabriel amisi kumba	gabriel amisi kumba	28/05/1964	28 may 1964	malela, drc		drc	congo, democratic republic of the	0	0	-1	0	1
+13435	20050	celestin kanyama	celestin kanyama	04/10/1960	04 oct 1960	kananga, drc	kananga, democratic republic of the congo	drc	congo, democratic republic of the	0	0	1	0	1
+13442	18050	hassan el-hajj hassan	hassan el-hajj hassan	22/03/1988	22 mar 1988	zaghdraiya, sidon, lebanon		canadian	lebanon	0	0	-1	0	1
+13446	21265	bassam ahmad al-hasri	bassam ahmad al-hasri	01/01/1969	01 jan 1969	(1) qalamun, damascus province (2) ghutah, damascus province (3) tadamon, rif dimashq, syrian arab republic	qalamun, damascus province, syria, ghutah, damascus province, syria, tadamon, rif dimashq, syria	(1) syrian arab republic (2) state of palestine	syria	0	0	1	0	1
+13447	21266	iyad nazmi salih khalil	iyad nazmi salih khalil	00/00/1974	01 jan 1974 to 31 dec 1974	syrian arab republic	syria	jordanian	jordan	0	0	0	0	1
+13448	19850	ghalib abdullah al-zaidi	ghalib abdullah al-zaidi	00/00/1970	1970	raqqah region, marib governorate, yemen	raqqah region, marib governorate, yemen	yemeni		0	0	3	-1	1
+13449	19891	nayif salih salim al-qaysi	nayif salih salim al-qaysi	00/00/1983	01 jan 1983	al baydah governorate, yemen	albaidah, yemen	yemeni	yemen	0	0	1	0	1
+13450	20959	ahmad ballul	ahmad ballul	10/10/1954	10 oct 1954	""		syrian		0	0	-1	-1	1
+13453	20961	badi' mu'alla	badi mualla	00/00/1961	1961	bistuwir, jablah, syria	bistuwir, jablah, syria	syrian		2	0	3	-1	1
+13458	20900	abdoulaye hissene	abdoulaye hissene	01/01/1967	1967	(1) ndele, bamingui-bangoran (2) haraze mangueigne, (1) central african republic (2) chad	ndele, bamingui-bangoran prefecture, central african republic	(1) central african republic (2) chad	central african republic	0	0	0	0	1
+13459	21144	evariste boshab	evariste boshab	12/01/1956	12 jan 1956	teke-kalamba,kasai occidentale province, drc	teke-kalamba, democratic republic of the congo, kasai occidentale province, democratic republic of the congo	drc	congo, democratic republic of the	0	0	2	0	1
+13467	21143	kalev mutondo	kalev mutondo	03/03/1957	03 mar 1957	""	kasaji, democratic republic of the congo, likasi, katanga, democratic republic of the congo	drc	congo, democratic republic of the	0	0	0	0	1
+13490	21643	fared saal	fared saal	18/02/1989	18 feb 1989	bonn, germany	bonn, germany	(1) germany (2) algeria	germany	0	0	2	0	1
+13511	21363	alexanda amon kotey	alexanda amon kotey	13/12/1983	13 dec 1983	london, united kingdom of great britain and northern ireland	paddington, london, united kingdom	british	cyprus	0	0	1	0	1
+13513	21728	el shafee elsheikh	el shafee elsheikh	16/07/1988	16 jul 1988	london, united kingdom of great britain and northern ireland	sudan	british	united kingdom	0	0	0	0	1
+13515	21726	muhammad bahrum naim anggih tamtomo	muhammad bahrun naim anggih tamtomo	06/09/1983	06 sep 1983	(1) surakarta (2) pekalongan, (1) indonesia (2) indonesia	surakarta, indonesia, pekalongan, indonesia	indonesian	indonesia	1	0	0	0	1
+13516	22643	malik ruslanovich barkhanoev	malik ruslanovish barkhanoev	14/03/1992	14 mar 1992	ordzhonikidzevskaya village, sunzhenskiy district, ingushetia, russian federation	ordzhonikidzevskaya, ingushetia, russia	russian	russia	1	0	1	0	1
+13518	21388	oman rochman	oman rochman	05/01/1972	05 jan 1972	sumedang, indonesia	sumedang, indonesia	indonesia	indonesia	0	0	2	1	1
+13521	23545	andrey vladimirovich cherezov	andrey vladimirovich cherezov	12/10/1967	12 oct 1967	salair, kemerovskaya oblast, russian federation	salair, kemerovsakya oblast, russia	russian	russia	0	0	1	0	1
+13522	23546	evgeniy petrovich grabchak	evgeniy petrovich grabchak	18/07/1981	18 jul 1981	ust-labinsk, krasnodar region, southern russia	ust-labinsk, krasnodar region, russia	russian	russia	0	0	2	0	1
+13539	21732	shane dominic crawford	shane dominic crawford	22/02/1986	22 feb 1986	mount hope, trinidad and tobago	trinidad and tobago	trinidad and tobago	trinidad and tobago	0	0	1	1	1
+13604	23643	muhindo akili mundos	muhindo akili mundos	10/11/1972	10 nov 1972	democratic republic of the congo	democratic republic of the congo	democratic republic of the congo	congo, democratic republic of the	0	0	1	0	1
+13610	20998	michael makuei leuth	michael makuei lueth	00/00/1947	1947	(1) bor, south sudan (2) bor, sudan	bor, south sudan, bor, sudan		kenya	2	0	1	-1	1
+13615	22863	salim mustafa muhammad al-mansur	salim mustafa muhammad al-mansur	00/00/1959	1959	(1) baghdad (2) tel afar, nineveh province, (1) iraq (2) iraq		iraqi	iraq	0	0	-1	0	1
+13616	22463	umar al-kubaysi	'umar al-kubaysi	01/01/1967	01 jan 1967	al-qaim, al-anbar province, iraq		iraqi	iraq	1	0	-1	0	1
+13618	23924	ahmad iman ali	ahmad iman ali	00/00/1973	1973	kenya	kenya	kenya	kenya	0	0	1	1	1
+13619	23923	abdifatah abubakar abdi	abdifatah abubakar abdi	15/04/1982	15 apr 1982	somalia	somalia	somalia	somalia	0	0	1	1	1
+13625	23823	yun yuan tsang	yung yuan tsang	20/10/1957	20 oct 1957	""				1	0	-1	-1	1
+13664	22286	su-kwang kim	su-kwang kim	18/08/1976	18 aug 1976	pyongyang, democratic people's republic of korea (dprk)		democratic people's republic of korea (dprk)		0	0	-1	-1	1
+13677	24423	myrna ajijul mabanza	myrna ajijul mabanza	11/07/1991	11 jul 1991	""		filipino	philippines	0	0	-1	0	1
+13678	23703	abdulpatta escalon abubakar	abdulpatta escalon abubakar	01/01/1965	01 jan 1965	tuburan, basilan province, philippines	tuburan, basilan province, philippines	filipino	philippines	0	0	3	0	1
+13681	24808	aung kyaw zaw	aung kyaw zaw	20/08/1961	20 aug 1961	""		burmese		0	0	-1	-1	1
+13687	25077	delcy eloina rodriguez gomez	delcy eloina rodriguez gomez	18/05/1969	18 may 1969	""			venezuela	0	0	-1	-1	1
+13698	22903	malek reuben riak rengu	malek reuben riak rengu	01/01/1960	01 jan 1960	yei, south sudan	yei, south sudan	south sudan	south sudan	0	0	2	1	1
+13706	24547	adnan abu walid al-sahrawi	adnan abu walid al-sahrawi	16/02/1973	16 feb 1973	laayoune	laayoune, western sahara			0	0	1	-1	1
+13710	24785	muhammed reza lahaman kiram	mohammad reza lahaman kiram	03/03/1990	03 mar 1990	zamboanga city, zamboanga del sur, philippines	zamboanga city, zamboanga del sur, philippines	philippines	philippines	2	0	3	1	1
+13714	21731	anjem choudary	anjem choudary	18/01/1967	18 jan 1967	welling, london, united kingdom	welling, southeast london, uk, north london, uk	british	united kingdom	0	0	1	0	1
+13720	26095	hajji 'abd al-nasir	hajji 'abd al-nasir	00/00/1966	1966	tall 'afar, iraq	tall 'afar, iraq	iraqi	iraq	0	0	2	0	1
+13723	22409	leonid ivanovich pasechnik	leonid ivanovich pasechnik	15/03/1970	15 mar 1970	(1) vorochilovgrad (2) luhansk, vorochilovgrad oblast, ukrainian ssr		ukrainian		0	0	-1	-1	1
+13727	26507	vladimir yurevich vysotskiy	vladimir yurievich vysotsky	07/04/1985	07 apr 1985	autonomous republic of crimea	crimea, ukraine	ukrainian		2	0	0	-1	1
+13744	26170	alexander yevgeniyevich mishkin	alexander yevgeniyevich mishkin	13/07/1979	13 jul 1979	(1) loyga (2) kotlas, russia	loyga, russia, kotlas, russia	russian	russia	0	0	1	0	1
+13748	21330	igor olegovich kostyukov	igor olegovich kostyukov	21/02/1961	21 feb 1961	amur oblast, russian sfsr (now russian federation)		russian		0	0	-1	-1	1
+13751	26171	anatoliy vladimirovich chepiga	anatoliy vladimirovich chepiga	12/04/1978	12 apr 1978	(1) nikolaevka, amur oblast (2) dushanbe, (1) russia (2) tajikistan	nikolaevka, amur oblast, russia, dushanbe, tajikistan	russian	russia	0	0	0	0	1
+13763	29027	nader kalai	nader kalai	09/07/1965	09 jul 1965	damascus, syria	damascus, syria	syrian	canada	0	0	2	0	1
+13787	11459	mohammed masood azhar alvi	mohammad masood azhar alvi	10/06/1968	10 jun 1968	bahawalpur, punjab province, pakistan	bahawalpur, punjab province, pakistan	pakistan	pakistan	1	0	3	1	1
+13789	27000	ali maychou	ali maychou	25/05/1983	25 may 1983	taza, morocco	taza, morocco	moroccan	morocco	0	0	2	0	1
+13790	26990	bah ag moussa	bah ag moussa	31/12/1952	31 dec 1952	""		mali	mali	0	0	-1	1	1
+13799	27583	ahmed ag albachar	ahmed ag albachar	31/12/1963	31 dec 1963	tin-essako, kidal region, mali	tin-essako, kidal region, mali	mali	mali	0	0	3	1	1
+13800	27156	houka houka ag alhousseini	houka houka ag alhousseini	01/01/1962	1962	ariaw, tombouctou region, mali	ariaw, tombouctou region, mali	mali	mali	0	0	3	1	1
+13801	27155	mahri sidi amar ben daha	mahri sidi amar ben daha	01/01/1978	1978	djebock, mali	djebock, mali	mali	mali	0	0	2	1	1
+13802	27153	mohamed ben ahmed mahri	mohamed ben ahmed mahri	01/01/1979	1979	tabankort, mali	tabankort, mali	mali	mali	0	0	2	1	1
+13807	28353	yekaterina eduardovna pyrkova	ekaterina eduardovna pyrkova	22/08/1967	22 aug 1967	sevastopol, russia (ussr)		(1) ukrainian (2) russian		1	0	-1	-1	1
+13808	28354	yekaterina borisovna altabaeva	ekaterina borisovna altabaeva	27/05/1956	27 may 1956	uglich, russia (ussr)	uglich, russia	russian		1	0	1	-1	1
+13809	28344	yuriy mikhailovich gotsanyuk	yuri mikhailovich gotsanyuk	18/07/1966	18 jul 1966	novaya derevnya, pervomaiskii raion, russia (ussr)	nove selo, ukraine	russian		1	0	0	-1	1
+13810	28350	vladimir vladimirovich nemtsev	vladimir vladimirovich nemtsev	15/11/1971	15 nov 1971	sevastopol, russia (ussr)	sevastopol, ukraine	(1) ukrainian (2) russian		0	0	1	-1	1
+13811	28349	mikhail vladimirovich razvozhaev	mikhail vladimirovich razvozhaev	30/12/1980	30 dec 1980	krasnoyarsk, russia (ussr)	krasnoyarsk, russia	russian		0	0	1	-1	1
+13812	27865	amadou kouffa	amadou kouffa	00/00/1958	1958	koufa, mali	mali		mali	0	0	1	-1	1
+13817	26889	amer foz	amer foz	11/03/1976	11 mar 1976	homs, syria	homs, syria	syrian		0	0	2	-1	1
+13821	29045	adel anwar al-olabi	adel anwar al-olabi	00/00/1976	1976	""	damascus, syria	syrian	syria	0	0	0	0	1
+13833	16725	abdoulaye miskine	abdoulaye miskine	03/03/1965	03 mar 1965	(1) ndinaba (2) kobo (3) kabo, (1) chad (2) central african republic (3) central african republic	kobo, central african republic, ndinaba, chad	(1) chad (2) central african republic (3) congo	chad	0	0	0	0	1
+13837	26125	n�stor moncada lau	nestor moncada lau	02/03/1954	02 mar 1954	""	managua, nicaragua		nicaragua	1	0	0	-1	1
+13840	28717	amir muhammad sa'id abdal-rahman al-mawla	amir muhammad sa'id abdal-rahman al-mawla	01/10/1976	01 oct 1976	(1) tall�afar (2) mosul, (1) iraq (2) iraq	mosul, iraq, tall 'afar, iraq	iraq	iraq	0	0	0	1	1
+13841	27687	jose adelino ornelas ferreira	jose adelino ornelas ferreira	14/12/1964	14 dec 1964	caracas, distrito capital, venezuela		venezuelan		0	0	-1	-1	1
+13853	19099	aleksey vasilyevich anichin	aleksey vasilyevich anichin	01/12/1949	01 dec 1949	sevastopol, ukraine	sevastopol, ukraine	russian		0	0	2	-1	1
+13859	16396	fikret tagiyev	fikret tagiyev	03/04/1962	03 apr 1962	baku, azerbaijan		russian		0	0	-1	-1	1
+13860	16395	alexandra viktorovna gaus	alexandra viktorovna gaus	29/03/1975	29 mar 1975	""				0	0	-1	-1	1
+13861	26081	mansour othman m abahussain	mansour othman m. abahussain	10/08/1972	10 aug 1972	majmaa, saudi arabia	majmaa, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13863	26079	naif hassan s. alarifi	naif hassan s. alarifi	28/02/1986	28 feb 1986	riyadh, saudi arabia	riyadh, saudi arabia	saudi arabian	saudi arabia	0	0	2	0	1
+13871	26084	waleed abdullah m. al sehri	waleed abdullah m. alsehri	05/11/1980	05 nov 1980	riyadh, saudi arabia	riyadh, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13875	17546	victor yakovlevich grin	victor yakovlevich grin	01/01/1951	01 jan 1951	""		russian		0	0	-1	-1	1
+13879	26086	turki muserref m. alshehri	turki muserref m. alsehri	00/00/1982	1982	""		saudi arabian	saudi arabia	1	0	-1	0	1
+13882	26082	khalid aedh g. altaibi	khalid aedh g. alotaibi	28/06/1988	28 jun 1988	afif, saudi arabia	afif, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13883	15894	yelena stashina	yelena stashina	05/11/1963	05 nov 1963	tomsk, russia	tomsk, russia	russian		0	0	2	-1	1
+13886	15885	aleksey krivoruchko	aleksey krivoruchko	25/08/1977	25 aug 1977	moscow region, russia	moscow region, russia	russian		0	0	2	-1	1
+13887	15897	svetlana ukhnalyova	svetlana ukhnalyova	14/03/1973	14 mar 1973	moscow, russia	moscow, russia	russian		0	0	2	-1	1
+13888	26092	mohammad alotaibi	mohammad al-otaibi	06/11/1964	06 nov 1964	riyadh, saudi arabia	riyadh, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13891	26089	badr lafi m alotaibi	badr lafi m. alotaibi	06/07/1973	06 jul 1973	riyadh, saudi arabia	riyadh, saudi arabia	saudi arabian	saudi arabia	1	0	2	0	1
+13912	28980	bi sidi soulemane	bi sidi souleymane	20/07/1962	20 jul 1962	bocaranga, central african republic	bocaranga, ouham-pende prefecture, central african republic	central african republic	central african republic	1	0	2	1	1
+13913	25038	mahmud al-warfalli	mahmud al-warfalli	00/00/1978	1978	werfalla tribe, west of libya or elrseefa (bani walid), libya			libya	0	0	-1	-1	1
+13922	29664	dzmitry uladzimiravich balaba	dzmitriy uladzimiravich balaba	01/06/1972	1972	molodenchensky district gorodilovo minsk region, former ussr currently belarus	haradzilava, minsk oblast, belarus	belarusian	belarus	1	152	0	0	1
+13923	29642	yuri khadzimuratavich karaeu	yuriy khadzymuratavich karaeu	21/06/1966	21 jun 1966	ordzhonikidze (now vladikavkaz), former ussr (currently russia)	vladikavkaz, russian federation		belarus	2	0	0	-1	1
+13924	29662	alyaksandr piatrovich barsukou	alyaksandr pyatrovich barsukou	29/04/1965	29 apr 1965	vetkovsky/vetkovski�district of the gomel region, former ussr currently belarus	vetkovski district, homyel oblast, belarus	belarusian	belarus	1	0	0	0	1
+13926	28184	alexander nikolaevich ganov	alexander nikolaevich ganov	24/10/1974	24 oct 1974	voroezh, russia (ussr)	voronezh, russia	russian		0	0	0	-1	1
+13932	30545	genadz arkadzievich kazakevich	henadz arkadzievich kazakevich	14/02/1975	14 feb 1975	minsk, former ussr currently belarus	minsk, belarus	belarusian	belarus	1	0	1	0	1
+13936	29663	ivan uladzimiravich kubrakou	ivan uladzimiravich kubrakou	05/05/1975	05 may 1975	malinovka village, mogilev oblast, former ussr currently belarus	malinawka, mahilyou oblast, belarus	belarusian	belarus	0	0	0	0	1
+13952	29675	alena mikalaeuna dmuhaila	alena mikalaeuna dmukhayla	01/07/1971	1971	""			belarus	2	181	-1	-1	1
+13962	9770	lidzia mihailauna yarmoshina	lidziya mihaulauna yarmoshina	29/01/1953	29 jan 1953	slutsk, former ussr currently belarus	slutsk, belarus	belarusian		2	0	1	-1	1
+13963	29674	vadzim dzmitryevich ipatau	vadzim dzmitrievich ipatau	30/10/1964	30 oct 1964	kolomyia, ivano-frankivsk region on ukraine, former ussr currently ukraine	kolomyya, ukraine		belarus	1	0	0	-1	1
+13967	20883	jamal husayn zayniyah	jamal husayn zayniyah	01/01/1972	01 jan 1972	(1) benghazi (2) al tall (3) tell mnin, (1) libya (2) syrian arab republic (3) syrian arab republic	al-tal, syria, tell mnin, syria	syrian arab republic	syria	0	0	0	0	1
+13968	21171	yevgeniy viktorovich prigozhin	yevgeniy viktorovich prigozhin	01/06/1961	01 jun 1961	leningrad (st petersburg), russia		russian		0	0	-1	-1	1
+13971	16934	sergei ivanovich menyailo	sergei ivanovich menyailo	22/08/1960	22 aug 1960	alagir, russia	alagir, north ossetia, russia	russian		0	0	2	-1	1
+13996	10136	petr petrovich miklashevich	petr petrovich miklashevich	18/10/1954	1954	minsk oblast, former ussr now belarus	kosuta, minsk district, belarus	belarusian	belarus	0	290	0	0	1
+14005	23305	yankuba badjie	yankuba badjie	24/02/1973	24 feb 1973	new jeshwang, kanifang municipality, the gambia	new jeshwang, kanifang municipality, the gambia	gambian		0	0	3	-1	1
+14008	26388	rafael enrique bastardo mendoza	rafael enrique bastardo mendoza	22/09/1978	22 sep 1978	coche, libertador, capital district, venezuela		venezuelan	venezuela	0	0	-1	0	1
+14015	17446	apti kharanovich alaudinov	apti kharonovich alaudinov	05/10/1973	05 oct 1973	stavropol, russia	stavropol, russia	russian		1	0	2	-1	1
+14061	31137	aung lin dwe	aung lin dwe	31/05/1962	31 may 1962	myanmar		myanmar		0	0	-1	-1	1
+14065	23383	abukar ali adan	abukar ali adan	00/00/1971	1971	""				0	0	-1	-1	1
+14066	30426	maalim ayman	maalim ayman	00/00/1973	1973	kenya	kenya			0	0	1	-1	1
+14067	18007	mahad karate	mahad karate	00/00/1957	1957 to 1962	xararadheere, somalia	xarardheere, somalia			0	0	1	-1	1
+14068	24902	muhammad al-qatarji	muhammad al-qatirji	10/11/1976	10 nov 1976	raqqah, syria	raqqah	syria	syria	1	0	1	1	1
+14070	29402	luna al shibl	luna al shibl	01/09/1975	01 sep 1975	suweida, syria	suweida, syria, damascus, syria	syria	syria	0	0	2	1	1
+14072	29462	yasser hussein ibrahim	yasser hussein ibrahim	09/04/1983	09 apr 1983	damascus, syria	damascus, syria	syria	syria	0	0	2	1	1
