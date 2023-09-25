@@ -260,7 +260,6 @@ def main():
     gbrDF = spark.read.json(uk_file_path)
     gbrDF.printSchema()
     gbrDF.createOrReplaceTempView(gbr_prefix)
-
     
     ofacDF = spark.read.json(ofac_file_path)
     ofacDF.printSchema()
