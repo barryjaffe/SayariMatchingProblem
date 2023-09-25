@@ -1,0 +1,129 @@
+uk_id	ofac_id	uk_name	ofac_name	uk_address_country	ofac_address_country	uk_address_value	ofac_address_value	uk_address_postal_code	ofac_address_postal_code	name_distance	address_country_distance	address_value_distance	address_postal_code_distance	rank
+6935	4688	abu sayyaf group	abu sayyaf group	philippines		""				0	1	1	1	1
+6961	7321	benevolence international foundation	benevolence international foundation	yemen	yemen	""	, , , ,			0	0	7	1	1
+6963	4690	armed islamic group	armed islamic group	algeria		""				0	1	1	1	1
+6965	6366	al qa'ida	al qa'ida			""				0	1	1	1	1
+6968	6912	al rashid trust	al rashid trust	pakistan	pakistan	jamia masjid, sulaiman park, begum pura, lahore	jamia masjid, sulaiman park, begum pura, , , lahore,			0	0	5	1	1
+6972	6911	wafa humanitarian organization	wafa humanitarian organization	pakistan (at time of listing)		jordan house no 125, street 54, phase ii hayatabad, peshawar				0	1	1	1	1
+6975	7200	al-aqsa martyrs' brigade	al-aqsa martyrs brigade			""				1	1	1	1	1
+6987	4696	harakat ul-mujahideen	harakat ul-mujahideen	pakistan		""				0	1	1	1	1
+6991	7199	al-haramain islamic foundation	al-haramain islamic foundation	bosnia and herzegovina	bosnia and herzegovina	64 poturmahala, travnik	64 poturmahala, , , travnik,			0	0	5	1	1
+7021	7472	ansar al-islam	ansar al-islam		iraq	""	, , , ,			0	1	7	1	1
+7029	6935	jaish-i-mohammed	jaish-i-mohammed	pakistan	pakistan	""	, , , ,			0	0	7	1	1
+7149	7324	moroccan islamic combatant group	moroccan islamic combatant group	morocco		""				0	1	1	1	1
+7199	6725	islamic movement of uzbekistan	islamic movement of uzbekistan			""				0	1	1	1	1
+7208	7280	jemaah islamiyah	jemaa islamiyah			""				1	1	1	1	1
+7210	7149	revival of islamic heritage society	revival of islamic heritage society	afghanistan	afghanistan	""	, , , ,			0	0	7	1	1
+7212	6936	jam'yah ta'awun al-islamia	jam'yah ta'awun al-islamia	afghanistan	afghanistan	kandahar city	, , , qandahar city,			0	0	8	1	1
+7231	4702	kurdistan workers party	kurdistan workers' party			""				1	1	1	1	1
+7241	7140	lashkar-e-tayyiba	lashkar e-tayyiba		pakistan	""	, , , ,			1	1	7	1	1
+7247	6897	salafist group for call and combat	salafist group for call and combat	mali		""				0	1	1	1	1
+7364	4706	national liberation army	national liberation army			""				0	1	1	1	1
+7364	7755	national liberation army	national liberation army			""				0	1	1	1	1
+8282	8213	aviatrans anstalt	aviatrans anstalt	liechtenstein	liechtenstein	ruggell	, , , ruggell,			0	0	7	1	1
+8283	8214	logarcheo s.a.	logarcheo s.a.	switzerland	switzerland	chemin du carmel, 1661 le paquier-montbarry	chemin du carmel, , , 1661 le paquier-montbarry,			0	0	5	1	1
+8284	2831	midco finance, s.a.	midco finance s.a.		panama	""	, , , ,			1	1	7	1	1
+8360	8225	al furqan	al furqan	bosnia and herzegovina	bosnia and herzegovina	72 ul. strossmajerova, zenica	ul. strossmajerova 72, , , zenica,			0	0	11	1	1
+8441	8759	islamic state in iraq and the levant	islamic state of iraq and the levant			""				2	1	1	1	1
+8531	7638	al-aqsa e.v.	al-aqsa e.v.		germany	""	kappellenstrasse 36, , , aachen,		d-52066	0	1	32	1	1
+8652	9334	islamic jihad group	islamic jihad group			""				0	1	1	1	1
+8703	7946	al-akhtar trust international	al-akhtar trust international	pakistan	pakistan	gulistan-e-jauhar, block 12, karachi	gulistan-e-jauhar, block 12, , , karachi,			0	0	5	1	1
+8988	10371	farayand technique	farayand technique		iran	""	, , , isfahan,			0	1	14	1	1
+8990	10863	7th of tir	7th of tir		iran	""	p.o. box 81465-478, , , isfahan,			0	1	32	1	1
+8994	10388	fajr industrial group	fajr industries group		iran	""	p.o. box 1985-777, , , tehran,			2	1	30	1	1
+9038	10887	parchin chemical industries	parchin chemical industries		iran	""	khavaran road km 35, , , tehran,			0	1	32	1	1
+9041	11314	naval defence missile industry group	naval defence missile industry group		iran	""	, , , tehran,			0	1	13	1	1
+9044	9763	sanam industrial group	sanam industrial group		iran	""	pasdaran road 15, , , tehran,			0	1	29	1	1
+9045	9764	ya mahdi industries group	ya mahdi industries group		iran	""	po box 19395-4731, , , tehran,			0	1	30	1	1
+9102	9348	aerospace industries organisation	aerospace industries organization	iran	iran	langare street, nobonyad square, tehran	langare street, nobonyad square, , , tehran,			1	0	5	1	1
+10449	11446	niru battery manufacturing company	niru battery manufacturing company		iran	""	next to babee exp. way, nobonyad sq., p.o. box 19575-361, tehran,			0	1	65	1	1
+10655	10392	ministry of defence and armed forces logistics	ministry of defense and armed forces logistics	iran	iran	ferdowsi avenue, sarhang sakhaei street, tehran	ferdowsi avenue, sarhang sakhaei street, , , tehran,			1	0	5	1	1
+10659	11184	iran electronic industries	iran electronics industries	iran	iran	shahid langari street, nobonyad square, tehran	shahid langari street, nobonyad square, , tehran,			1	0	3	1	1
+11090	10761	al-shabaab	al-shabaab	somalia	somalia	""	, , , ,			0	0	7	1	1
+11135	10496	gharagahe sazandegi ghaem	gharargahe sazandegi ghaem		iran	""	no. 25, valiasr st., azadi sq., , tehran,			1	1	41	1	1
+11136	10490	ghorb karbala	ghorb karbala		iran	""	no. 2 firouzeh alley, shahid hadjipour st., resalat highway, tehran,			0	1	68	1	1
+11138	10495	hara company	hara company		iran	""	, , , tehran,			0	1	13	1	1
+11198	25139	iai	iyari		mexico	ekbatan city, karaj road, azadi sq., tehran	naciones unidas 4579-c, patria universidad, , zapopan, jalisco			2	1	46	1	1
+11199	12452	iamco	tajco		the gambia	p.o.box 81465 935, esfahan	1 picton street, , , banjul,			2	1	24	1	1
+11199	23628	hesa	hasm		egypt	p.o.box 81465 935, esfahan	, , , , cairo			2	1	21	1	1
+11200	12941	iran centrifuge technology company	iran centrifuge technology company	iran	iran	khalij e fars boulevard, kilometre 10 of atomic energy road, rowshan shahr, third moshtaq street, esfahan	khalij-e fars boulevard, kilometre 10 of atomic energy road, rowshan shahr, third moshtaq street, , , esfahan,			0	0	6	1	1
+11201	11181	iran communications industries	iran communication industries	iran	iran	po box 19295 4731, pasdaran ave, tehran	p.o. box 19295-4731, pasdaran avenue, , tehran,			1	0	9	1	1
+11203	16436	iran aviation industries organization	iran aviation industries organization	iran	iran	107 sepahbod gharani avenue, tehran	sepahbod gharani 36, , , tehran,			0	0	11	1	1
+11221	15148	centre for innovation and technology cooperation	center for innovation and technology cooperation	iran	iran	tehran	, , , tehran,			2	0	7	1	1
+11222	12956	yasa part	yasa part	iran	iran	sa'adat abaad, shahrdari sq.sarv building, 9th floor, unit 5, tehran	sa'adat abaad, shahrdari sq sarv building, 9th floor, unit 5, , , tehran,			0	0	6	1	1
+11238	10391	islamic revolutionary guard corps	islamic revolutionary guard corps	iran	iran	tehran	, , , tehran,			0	0	7	1	1
+11239	12056	islamic revolutionary guard corps al ghadir missile command	islamic revolutionary guard corps al-ghadir missile command		iran	""	, , , tehran,			1	1	13	1	1
+11270	12148	harakat-ul jihad islami	harakat-ul jihad islami		india	""	, , , ,			0	1	7	1	1
+11554	16443	maro sanat company	maro sanat company	iran	iran	north dr. moftah street, zahra street, placard 9, ground floor, tehran	north drive moftah street, zahra street, placard 9, ground floor, , tehran,			0	0	6	1	1
+11559	15912	taghtiran kashan company	taghtiran kashan company	iran	iran	3, 2nd st., assad abadi ave., vali asr ave. 14316 tehran	flat 2, no. 3, 2nd street, azad-abadi avenue, , , tehran,		14316	0	0	40	1	1
+11580	12477	bonyad taavon sepah	bonyad taavon sepah	iran	iran	niayes highway, seoul street, tehran	niayes highway, seoul street, , , tehran,			0	0	5	1	1
+11581	12478	ansar bank	ansar bank	iran	iran	building no.539, north pasdaran avenue, tehran	building no. 539, north pasdaran street, , , tehran,	19575 497	19575-497	0	0	11	1	1
+11582	12481	mehr bank	mehr bank	iran	iran	204 taleghani ave., tehran	204 taleghani ave., , , tehran,			0	0	5	1	1
+11711	12685	gaddafi international charity and development foundation	gaddafi international charity and development foundation	libya	libya	hay alandalus, jian street, po box 1101, tripoli	hay elandadlus - jian st, p.o. box 1101, , tripoli,			0	0	13	1	1
+11953	11183	shiraz electronics industries	shiraz electronics industries	iran	iran	hossain abad road, shiraz	hossain abad road, , , shiraz,			0	0	5	1	1
+12017	12745	bena properties	bena properties	syria	syria	cham holding building, daraa highway, ashrafiyat sahnaya rif dimashq, p.o.box 9525	cham holding building, daraa highway, sahnaya area, p.o. box 9525, p.o. box 9525, , damascus, syria,			0	0	44	1	1
+12018	12746	al mashreq investment fund	al mashreq investment fund	syria	syria	damascus, p.o.box 108	, , , damascus,			0	0	18	1	1
+12032	12206	tehrik-e taliban pakistan (ttp)	tehrik-e taliban pakistan (ttp)		pakistan	""	, , , ,			0	1	7	1	1
+12054	12813	political security directorate	political security directorate		syria	""	, , , damascus,			0	1	15	1	1
+12066	30464	souruh company	souran company	syria	syria	adra free zone area damascus	, , , damascus,			2	0	18	1	1
+12069	4695	ramak	hamas			damascus				2	1	1	1	1
+12069	10933	ramak	ramak	syria	syria	dara'a highway, damascus	tartous port, , , tartous,			0	0	19	1	1
+12152	12744	cham holding	cham holding	syria	syria	cham holding building, daraa highway, ashrafiyat sahnaya rif dimashq, p.o.box 9525	cham holding building, daraa highway, sahnaya area, p.o. box 9525, , , damascus,			0	0	36	1	1
+12153	10890	syriatel	syriatel		syria	thawra street, ste building 6th floor	doctors syndicate building, al jalaa street, abu roumaneh area, po box 2900, damascus,	bp 2900		0	1	68	1	1
+12249	15583	aria nikan marine industry	aria nikan marine industry	iran	iran	suite 1, 59 azadi ali north sohrevardi avenue, tehran	suite 1, 59 azadi ali north sohrevardi avenue, , , tehran,	1576935561		0	0	5	1	1
+12252	16441	eyvaz technic manufacturing company	eyvaz technic manufacturing company	iran	iran	sharia'ati st., shahid hamid sadik alley, building 3, number 3, tehran	sharia'ati st., shahid hamid sadik alley, building 3, number 3, tehran,			0	0	1	1	1
+12255	15564	iran pooya	iran pooya		iran	no.8, haqani exp.way, vanak sq., 15187, tehran	no. 8, haqani exp. way, vanak sq., 15187, , , tehran,			0	1	7	1	1
+12257	16008	moaser	modaber			1139/1 unit 104 gol building, gol alley, north side of sae, vali asr avenue, po box 19395-6439, tehran				2	1	1	1	1
+12259	12550	macpar makina san ve tic as	macpar makina san ve tic a.s.	turkey	turkey	sehidler caddesi no 79/2 tuzla, istanbul	sehidler caddesi no: 79/2 tuzla, , , istanbul,	34940	34940	2	0	6	0	1
+12262	12552	multimat ic ve dis ticaret pazarlama limited sirketi	multimat ic ve dis ticaret pazarlama limited sirketi	iran	iran	number 39, alvand st., 1st floor, argentine square, tehran	number 39, alvand st., 1st floor, argentine square, , tehran			0	0	2	1	1
+12266	11441	khorasan metallurgy industries	khorasan metallurgy industries	iran	iran	2nd km of khalaj road, end of seyyedi st, po box 91735-549, mashhad	khalaj road, end of seyedi street, , mashad,	91735		0	0	30	1	1
+12268	12551	step a.s.	step a.s.	turkey	turkey	bahariye cad., no.44, k6, kadikoy, istanbul	bahariye cad., no. 44, k6, kadikoy, istanbul,			0	0	2	1	1
+12460	12803	tidewater middle east co.	tidewater middle east co.	iran	iran	no.80, tidewater building, vozara street, next to saie park, tehran	no. 80, tidewater building, vozara street, next to saie park, , tehran,			0	0	4	1	1
+12484	17245	popular credit bank	popular credit bank	syria	syria	dar al muhanisen building, 6th floor, maysaloun street, damascus	dar al mouhandseen building, 6th floor, maysaloun street, dar al mohandessin area, damascus,		2841	0	0	29	1	1
+12485	17244	saving bank	saving bank	syria	syria	amous square, p.o.box: 5467, al-furat st.merjah, damascus	p.o. box: 5467, al-furat st., merjeh, damascus,			0	0	19	1	1
+12486	17242	agricultural cooperative bank	agricultural cooperative bank		syria	building damascus tajhez, p.o.box 4325	al naanaa garden, , , damascus,			0	1	30	1	1
+12503	30663	central bank of syria	central bank of syria	syria	syria	sabah bahrat square, damascus	sabaa bahrat square, , , damascus,			0	0	6	1	1
+12553	13098	jemaah anshorut tauhid	jemmah anshorut tauhid	indonesia	indonesia	ji. semenromo number 58, 04/xv ngruki, cemani, grogol, sukoharjo, jawa tengah	, , , ,			1	0	70	1	1
+12644	12867	syrian petroleum company	syrian petroleum company		syria	dummar province, expansion square, island 19-building 32, p.o.box 2849	dummar province expansion square, island 19, building 32, po box 2849, damascus,			0	1	16	1	1
+12693	12742	syrian national security bureau	syrian national security bureau		syria	""	, , , ,			0	1	7	1	1
+12695	13100	general organisation of radio and tv	general organization of radio and tv	syria	syria	al oumaween square, p.o.box 250, damascus	al oumaween square, p.o. box 250, , damascus,			1	0	4	1	1
+12696	12870	syrian company for oil transport	syrian company for oil transport	syria	syria	banias industrial area, latakia entrance way, p.o. box 13, banias	banias industrial area, latakia entrance way, p.o. box 13, banias,			0	0	1	1	1
+12703	15006	haji khairullah haji sattar money exchange	haji khairullah haji sattar money exchange	pakistan	pakistan	room number 1, abdul sattar plaza, hafiz saleem street, munsafi road, quetta, baluchistan province	room number 1, abdul sattar plaza, hafiz saleem street, munsafi road, quetta, balochistan province			0	0	1	1	1
+12704	15005	roshan money exchange	roshan money exchange	afghanistan	afghanistan	aziz market, in front of azizi bank, waish border, spin boldak district, kandahar province	aziz market, in front of azizi bank, waish border, spin boldak district, kandahar province			0	0	0	1	1
+12732	15217	drex technologies s.a.	drex technologies s.a.		virgin islands, british	""	, , , ,			0	1	7	1	1
+12734	13440	syrian arab airlines	syrian arab airlines	syria	syria	al-mohafazeh square, p.o.box 417, damascus	, , , ,			0	0	37	1	1
+12801	16996	expert partners	expert partners	syria	syria	rukn addin, saladin street, building 5, po box: 7006, damascus	rukn addin, saladin street, building 5, po box 7006, , , damascus,			0	0	6	1	1
+12814	15580	rahat ltd	rahat ltd	pakistan	pakistan	haji mohammed plaza, tol aram road, near jamaluddin afghani road, quetta	haji mohammed plaza, tol aram road, near jamal dean afghani road, quetta,			0	0	4	1	1
+12820	15909	aluminat	aluminat	iran	iran	unit 38, 5th fl, bldg no 60, golfam st, jordan, tehran	unit 38, 5th floor, no. 9, golfam avenue, africa avenue, , tehran,	19395-5716		0	0	28	1	1
+12841	15585	m23	m23		congo, democratic republic of the	""	, , , , north-kivu			0	1	18	1	1
+12864	15555	center to investigate organised crime	center to investigate organized crime	iran	iran	police headquarter, attar street, vanak sq, tehran	, , , tehran,			1	0	39	1	1
+12981	16937	al-nusrah front	al-nusrah front			""				0	1	1	1	1
+12982	16363	boko haram	boko haram	nigeria	nigeria	""	, , , ,			0	0	7	1	1
+13007	16364	ansaru	ansaru	nigeria	nigeria	""	, , , ,			0	0	7	1	1
+13045	17019	donbass�people's militia	donbass people's militia		ukraine	prospect zasyadko 13, donetsk	prospect zasyadko.13, , , donetsk,			1	1	6	1	1
+13057	18965	state enterprise 'universal-avia'	state enterprise universal-avia		ukraine	aeroflotskaya street 5, simferopol	5, aeroflotskaya street, , , simferopol, crimea	295021	95024	2	1	14	2	1
+13058	18961	resort �nizhnyaya oreanda�	resort nizhnyaya oreanda		region: crimea	house 12, resort 'nizhnyaya oreanda', oreanda, yalta	resort nizhnyaya oreanda, , , oreanda, yalta,	298658	08655	2	1	16	3	1
+13078	17755	russian national commercial bank	russian national commercial bank		russia	naberezhnaja street (named after 60th anniversary of ussr), 34, simferopol	d. 9 korp. 5 ul.krasnoproletarskaya, , , moscow,	295000	127030	0	1	58	4	1
+13140	16477	ansar al-sharia in tunisia	ansar al-shari'a in tunisia		tunisia	""	, , , ,			1	1	7	1	1
+13141	13168	abdullah azzam brigades	abdallah azzam brigades		lebanon	""	, , , ,			1	1	7	1	1
+13235	21424	organisation for technological industries	organization for technological industries	syria	syria	po box 11037, damascus	sham algadida otip box, , , damascus,		11037	1	0	24	1	1
+13236	22255	syrian company for information technology	syrian company for information technology	syria	syria	po box 11037 damascus	p.o. box 11037, , , damascus,			0	0	8	1	1
+13269	17150	haji basir and zarjmil company hawala	haji basir and zarjmil company hawala	pakistan	pakistan	sanatan (variant sanatin) bazaar, sanatan, bazaar street, near trench (variant tranch) road, chaman, baluchistan province	sanatan (variant sanatin) bazaar, sanatan bazaar street, near trench (variant tranch) road, chaman, balochistan province			0	0	2	1	1
+13274	18431	kardiam	kardiam	belgium	belgium	antwerp	hoveniersstraat 30, box 145, , antwerp,		2018	0	0	32	1	1
+13304	18631	mujahidin indonesia timor	mujahidin indonesia timur	indonesia	indonesia	""	, , , ,			1	0	7	1	1
+13345	19100	lord's resistance army	lord's resistance army	central african republic	central african republic	vakaga	, , , , vakaga			0	0	8	1	1
+13510	20010	khalid ibn al-walid army	khalid bin al-walid army		syria	""	yarmouk valley, , , , daraa province			2	1	36	1	1
+13512	21125	selselat al-thahab	selselat al thahab	iraq	iraq	al-kadhumi complex, al-harthia, baghdad	al-kadhumi complex, al harthia, , baghdad,			1	0	4	1	1
+13617	22464	al-kawthar money exchange	al-kawthar money exchange	iraq	iraq	al-qaim, al ambar province	, , , al-qa'im, al anbar province			0	0	8	1	1
+13626	23763	chang an shipping & technology	chang an shipping & technology	china	china	room 2105, dl1849, trend centre, 29-31 cheung lee street, chai wan, hong kong	room 2105, dl1849, trend centre, 29-31 cheung lee street, , chai wan, hong kong			0	0	2	1	1
+13700	20285	ao 'institute giprostroymost - saint-petersburg'	ao 'institute giprostroymost-saint-petersburg'	russia	russia	7, yablochkova street, st petersburg	7 yablochkova street, , , st. petersburg,	197198	197198	2	0	7	0	1
+13701	20029	pjsc mostotrest	pjsc mostotrest	russia	russia	6 barklaya street, bld.5, moscow	6 barklaya str., bld. 5, , , moscow,	121087	121087	0	0	9	0	1
+13764	29048	rawafed damascus private joint stock company	rawafed damascus private joint stock company	syria	syria	damascus	marota city, , , damascus,			0	0	18	1	1
+13765	26894	aman damascus joint stock company	aman damascus joint stock company	syria	syria	damascus	, , , damascus,			0	0	7	1	1
+13766	29043	bunyan damascus private joint stock company	bunyan damascus private joint stock company	syria	syria	damascus	marota city, eastern villas, mazeh, , damascus,		096311	0	0	39	1	1
+13788	18647	isil khorasan	isil khorasan		pakistan	""	, , , ,			0	1	7	1	1
+13804	4697	hizballah	hizballah			""				0	1	1	1	1
+13822	24903	al qatarji company	al-qatirji company		syria	""	mazzah, , , damascus,			2	1	21	1	1
+13823	28798	damascus cham holding company	damascus cham holding company		syria	""	marota city, eastern villas, mazeh, , damascus,		096311	0	1	47	1	1
+13825	24546	isis in the greater sahara	isis in the greater sahara		burkina faso	""	, , , ,			0	1	7	1	1
+13830	21405	jamaah ansharut daulah	jamaah ansharut daulah		indonesia	""	, , , ,			0	1	7	1	1
