@@ -1,0 +1,113 @@
+cmd entry: ['individual_matcher.py']
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/09/25 07:53:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Spark version = 3.4.1
+Hadoop version = 3.3.4
+root
+ |-- addresses: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- country: string (nullable = true)
+ |    |    |-- postal_code: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- aliases: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- type: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- id: string (nullable = true)
+ |-- id_numbers: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- comment: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- nationality: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- place_of_birth: string (nullable = true)
+ |-- position: string (nullable = true)
+ |-- reported_dates_of_birth: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- type: string (nullable = true)
+
+root
+ |-- addresses: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- country: string (nullable = true)
+ |    |    |-- postal_code: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- aliases: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- type: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- id: long (nullable = true)
+ |-- id_numbers: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- comment: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- nationality: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- place_of_birth: string (nullable = true)
+ |-- position: string (nullable = true)
+ |-- reported_dates_of_birth: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- type: string (nullable = true)
+
+calculating results...
++-----+-------+----------------------------------+----------------------------------+----------+-----------+--------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------------------------+----------------+-------------+------------+----------------------+-------------------+----+
+|uk_id|ofac_id|uk_name                           |ofac_name                         |uk_dob    |ofac_dob   |uk_place_of_birth                                                                                                   |ofac_place_of_birth                                                           |uk_nationality              |ofac_nationality|name_distance|dob_distance|place_of_birth_overlap|nationality_overlap|rank|
++-----+-------+----------------------------------+----------------------------------+----------+-----------+--------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------------------------+----------------+-------------+------------+----------------------+-------------------+----+
+|6894 |7329   |mohamad iqbal abdurrahman         |mohamad iqbal abdurrahman         |17/08/1957|17 aug 1957|(1) tirpas-selong village, east lombok (2) korleko-lombok timur, (1) indonesia (2) indonesia                        |tirpas-selong village, east lombok, indonesia, korleko-lombok timur, indonesia|indonesian                  |indonesia       |0            |0           |0                     |0                  |1   |
+|6899 |6907   |tharwat salah shihata             |thirwat salah shihata             |29/06/1960|29 jun 1960|egypt                                                                                                               |egypt                                                                         |egyptian                    |null            |1            |0           |1                     |-1                 |1   |
+|6901 |7135   |abdul majeed                      |abdul majeed                      |00/00/1938|1938       |                                                                                                                    |null                                                                          |pakistani                   |pakistan        |0            |0           |-1                    |0                  |1   |
+|6911 |23634  |abdul qadeer basir abdul baseer   |abdul qadeer basir abdul baseer   |00/00/1964|1964       |(1) surkh rod district, nangarhar province (2) hisarak district, nangarhar province, (1) afghanistan (2) afghanistan|nangarhar province, afghanistan                                               |afghan                      |afghanistan     |0            |0           |1                     |0                  |1   |
+|6925 |6925   |ahmed khalfan ghailani            |ahmed khalfan ghailani            |01/08/1970|01 aug 1970|zanzibar, tanzania                                                                                                  |zanzibar, tanzania                                                            |tanzania                    |tanzania        |0            |0           |2                     |1                  |1   |
+|6932 |6950   |omar mahmoud uthman               |omar mahmoud uthman               |13/12/1960|13 dec 1960|bethlehem, west bank, palestinian territories                                                                       |bethlehem, west bank, palestinian territories                                 |jordanian                   |jordan          |0            |0           |3                     |0                  |1   |
+|6944 |6940   |amin al-haq                       |amin al-haq                       |00/00/1960|1960       |nangarhar province, afghanistan                                                                                     |nangahar province, afghanistan                                                |afghan                      |null            |0            |0           |1                     |-1                 |1   |
+|6962 |7209   |khalid abd al-rahman hamd al-fawaz|khalid abd al-rahman hamd al-fawaz|24/08/1962|24 aug 1962|kuwait                                                                                                              |kuwait                                                                        |saudi arabian               |saudi arabia    |0            |0           |1                     |0                  |1   |
+|6994 |6928   |khalid sheikh mohammed            |khalid shaikh mohammed            |01/03/1964|01 mar 1964|balochistan, pakistan                                                                                               |kuwait                                                                        |pakistani                   |kuwait          |1            |0           |0                     |0                  |1   |
+|6995 |7006   |hassan dahir aweys                |hassan dahir aweys                |00/00/1935|1935       |somalia                                                                                                             |null                                                                          |somali citizen              |somalia         |0            |0           |-1                    |0                  |1   |
+|6995 |11744  |hassan dahir aweys                |hassan dahir aweys                |00/00/1935|1935       |somalia                                                                                                             |null                                                                          |somali citizen              |somalia         |0            |0           |-1                    |0                  |1   |
+|6997 |6941   |salim ahmad salim hamdan          |salim ahmad salim hamdan          |00/00/1965|1965       |(1) al-mukalla (2) al-mukala, (1) yemen (2) yemen                                                                   |al-mukalla, yemen                                                             |yemeni                      |null            |0            |0           |0                     |-1                 |1   |
+|6998 |7148   |boubekeur boulghiti               |boubekeur boulghiti               |13/02/1970|13 feb 1970|rouiba, algiers, algeria                                                                                            |rouiba, algiers, algeria                                                      |(1) algerian (2) palestinian|algeria         |0            |0           |3                     |0                  |1   |
+|7024 |7203   |mohamed ben belkacem aouadi       |mohamed ben belgacem aouadi       |11/12/1974|11 dec 1974|tunis, tunisia                                                                                                      |tunisia                                                                       |tunisian                    |tunisia         |1            |0           |1                     |0                  |1   |
+|7082 |7133   |sultan bashiruddin mahmood        |sultan bashir-ud-din mahmood      |00/00/1937|1937       |                                                                                                                    |null                                                                          |pakistani                   |pakistan        |2            |0           |-1                    |0                  |1   |
+|7087 |7204   |lased ben heni                    |lased ben heni                    |05/02/1969|05 feb 1969|(1) tripoli (2) tunis, (1) libyan arab jamahiriya (2) tunisia                                                       |libya, tripoli                                                                |tunisian                    |null            |0            |0           |0                     |-1                 |1   |
+|7098 |7265   |ramzi mohamed abdullah binalshibh |ramzi mohammed abdullah binalshibh|01/05/1972|01 may 1972|(1) gheil bawazir, hadramawt (2) khartoum, (1) yemen (2) sudan                                                      |hadramawt, yemen, khartoum sudan                                              |(1) yemeni (2) sudan        |yemen           |1            |0           |0                     |0                  |1   |
+|7131 |7267   |zakarya essabar                   |zakarya essabar                   |03/04/1977|03 apr 1977|essaouria, morocco                                                                                                  |essaouria, morocco                                                            |moroccan                    |null            |0            |0           |2                     |-1                 |1   |
+|7146 |6926   |hasan izz al-din                  |hasan izz-al-din                  |00/00/1963|1963       |lebanon                                                                                                             |lebanon                                                                       |lebanese                    |lebanon         |1            |0           |1                     |0                  |1   |
+|7156 |7328   |nurjaman riduan isamuddin         |nurjaman riduan isamuddin         |04/04/1964|04 apr 1964|cianjur, west java, indonesia                                                                                       |cianjur, west java, indonesia                                                 |indonesian                  |indonesia       |0            |0           |3                     |0                  |1   |
++-----+-------+----------------------------------+----------------------------------+----------+-----------+--------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------------------------+----------------+-------------+------------+----------------------+-------------------+----+
+only showing top 20 rows
+
+Individual match count: 441
+duplicate detection
++-------+---------+----------+
+|ofac_id|dup_count|dup_uk_ids|
++-------+---------+----------+
++-------+---------+----------+
+
++-----+---------+--------------+
+|uk_id|dup_count|dup_ofac_ids  |
++-----+---------+--------------+
+|6995 |2        |[11744, 7006] |
+|8425 |2        |[11743, 8264] |
+|11091|2        |[11311, 11746]|
+|11207|2        |[12127, 23629]|
++-----+---------+--------------+
+
++---------+--------------------+-----------+
+|namespace|           tableName|isTemporary|
++---------+--------------------+-----------+
+|         |                 gbr|       true|
+|         |             gbr_dob|       true|
+|         |      gbr_individual|       true|
+|         | gbr_individual_data|       true|
+|         |  individual_matches|       true|
+|         |        name_matches|       true|
+|         |                ofac|       true|
+|         |            ofac_dob|       true|
+|         |     ofac_individual|       true|
+|         |ofac_individual_data|       true|
++---------+--------------------+-----------+
+
+done

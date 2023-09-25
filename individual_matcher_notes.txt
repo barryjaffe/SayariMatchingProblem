@@ -1,0 +1,11 @@
++-----+---------+--------------+-------------------------------------------------------------------------------------------+
+|uk_id|dup_count|dup_ofac_ids  | Explanation/Fix                                                                           |
++-----+---------+--------------+-------------------------------------------------------------------------------------------+
+|6995 |2        |[11744, 7006] | logical duplicates in source ofac data.  Remove source duplicates before comparing.       |
+|8425 |2        |[11743, 8264] | logical duplicates in source ofac data.  Remove source duplicates before comparing.       |
+|11091|2        |[11311, 11746]| logical duplicates in source ofac data.  Remove source duplicates before comparing.       |
+|11207|2        |[12127, 23629]| possible false positive in name matching in gbr data. Refine scoring/comparison algorithm.|
++-----+---------+--------------+-------------------------------------------------------------------------------------------+
+
+spark.sql("select * from individual_matches where uk_id = 6995").show(truncate=False)
+spark.sql("select * from ofac where id in (11744, 7006)").show(truncate=False)

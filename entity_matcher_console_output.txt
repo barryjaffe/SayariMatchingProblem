@@ -1,0 +1,181 @@
+cmd entry: ['entity_matcher.py']
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/09/25 08:00:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Spark version = 3.4.1
+Hadoop version = 3.3.4
+root
+ |-- addresses: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- country: string (nullable = true)
+ |    |    |-- postal_code: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- aliases: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- type: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- id: string (nullable = true)
+ |-- id_numbers: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- comment: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- nationality: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- place_of_birth: string (nullable = true)
+ |-- position: string (nullable = true)
+ |-- reported_dates_of_birth: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- type: string (nullable = true)
+
+root
+ |-- addresses: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- country: string (nullable = true)
+ |    |    |-- postal_code: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- aliases: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- type: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- id: long (nullable = true)
+ |-- id_numbers: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- comment: string (nullable = true)
+ |    |    |-- value: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- nationality: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- place_of_birth: string (nullable = true)
+ |-- position: string (nullable = true)
+ |-- reported_dates_of_birth: array (nullable = true)
+ |    |-- element: string (containsNull = true)
+ |-- type: string (nullable = true)
+
+calculating results...
++-----+-------+------------------------------------+------------------------------------+--------------------------------+----------------------+-------------+------------------------+----+
+|uk_id|ofac_id|uk_name                             |ofac_name                           |uk_address_country              |ofac_address_country  |name_distance|address_country_distance|rank|
++-----+-------+------------------------------------+------------------------------------+--------------------------------+----------------------+-------------+------------------------+----+
+|6935 |4688   |abu sayyaf group                    |abu sayyaf group                    |philippines                     |null                  |0            |1                       |1   |
+|6961 |7321   |benevolence international foundation|benevolence international foundation|bangladesh                      |bangladesh            |0            |0                       |1   |
+|6963 |4690   |armed islamic group                 |armed islamic group                 |algeria                         |null                  |0            |1                       |1   |
+|6965 |6366   |al qa'ida                           |al qa'ida                           |null                            |null                  |0            |1                       |1   |
+|6968 |6912   |al rashid trust                     |al rashid trust                     |pakistan                        |pakistan              |0            |0                       |1   |
+|6972 |6911   |wafa humanitarian organization      |wafa humanitarian organization      |afghanistan (at time of listing)|null                  |0            |1                       |1   |
+|6975 |7200   |al-aqsa martyrs' brigade            |al-aqsa martyrs brigade             |null                            |null                  |1            |1                       |1   |
+|6987 |4696   |harakat ul-mujahideen               |harakat ul-mujahideen               |pakistan                        |null                  |0            |1                       |1   |
+|6991 |7199   |al-haramain islamic foundation      |al-haramain islamic foundation      |bosnia and herzegovina          |bosnia and herzegovina|0            |0                       |1   |
+|7021 |7472   |ansar al-islam                      |ansar al-islam                      |null                            |iraq                  |0            |1                       |1   |
+|7029 |6935   |jaish-i-mohammed                    |jaish-i-mohammed                    |pakistan                        |pakistan              |0            |0                       |1   |
+|7149 |7324   |moroccan islamic combatant group    |moroccan islamic combatant group    |morocco                         |null                  |0            |1                       |1   |
+|7199 |6725   |islamic movement of uzbekistan      |islamic movement of uzbekistan      |null                            |null                  |0            |1                       |1   |
+|7208 |7280   |jemaah islamiyah                    |jemaa islamiyah                     |null                            |null                  |1            |1                       |1   |
+|7210 |7149   |revival of islamic heritage society |revival of islamic heritage society |pakistan                        |pakistan              |0            |0                       |1   |
+|7212 |6936   |jam'yah ta'awun al-islamia          |jam'yah ta'awun al-islamia          |afghanistan                     |afghanistan           |0            |0                       |1   |
+|7231 |4702   |kurdistan workers party             |kurdistan workers' party            |null                            |null                  |1            |1                       |1   |
+|7241 |7140   |lashkar-e-tayyiba                   |lashkar e-tayyiba                   |null                            |pakistan              |1            |1                       |1   |
+|7247 |6897   |salafist group for call and combat  |salafist group for call and combat  |mauritania                      |null                  |0            |1                       |1   |
+|7364 |4706   |national liberation army            |national liberation army            |null                            |null                  |0            |1                       |1   |
++-----+-------+------------------------------------+------------------------------------+--------------------------------+----------------------+-------------+------------------------+----+
+only showing top 20 rows
+
+Entity match count: 128
+duplicate detection
++-------+---------+----------+
+|ofac_id|dup_count|dup_uk_ids|
++-------+---------+----------+
++-------+---------+----------+
+
++-----+---------+--------------+
+|uk_id|dup_count|dup_ofac_ids  |
++-----+---------+--------------+
+|11199|2        |[12452, 23628]| levenshtein algorithm on short strings, refine matching.
+|7364 |2        |[4706, 7755]  | logical duplicates in source ofac data.  Remove source duplicates before comparing.
+|12069|2        |[4695, 10933] | levenshtein algorithm on short strings, refine matching.
+|12484|2        |[17244, 17245]| overlapping aliases in source gbr data.
++-----+---------+--------------+
+
++---------+----------------+-----------+
+|namespace|       tableName|isTemporary|
++---------+----------------+-----------+
+|         |  entity_matches|       true|
+|         |             gbr|       true|
+|         |      gbr_entity|       true|
+|         | gbr_entity_data|       true|
+|         |    name_matches|       true|
+|         |            ofac|       true|
+|         |     ofac_entity|       true|
+|         |ofac_entity_data|       true|
++---------+----------------+-----------+
+
+done
+>>> spark.sql("select * from entity_matches where uk_id = 11199").show(truncate=False)
+spark.sql("select * from entity_matches where uk_id = 11199").show(truncate=False)
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+|uk_id|ofac_id|uk_name|ofac_name|uk_address_country|ofac_address_country|name_distance|address_country_distance|rank|
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+|11199|12452  |iamco  |tajco    |null              |the gambia          |2            |1                       |1   |
+|11199|23628  |hesa   |hasm     |null              |egypt               |2            |1                       |1   |
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+
+>>> spark.sql("select * from entity_matches where uk_id = 7364").show(truncate=False)
+spark.sql("select * from entity_matches where uk_id = 7364").show(truncate=False)
++-----+-------+------------------------+------------------------+------------------+--------------------+-------------+------------------------+----+
+|uk_id|ofac_id|uk_name                 |ofac_name               |uk_address_country|ofac_address_country|name_distance|address_country_distance|rank|
++-----+-------+------------------------+------------------------+------------------+--------------------+-------------+------------------------+----+
+|7364 |4706   |national liberation army|national liberation army|null              |null                |0            |1                       |1   |
+|7364 |7755   |national liberation army|national liberation army|null              |null                |0            |1                       |1   |
++-----+-------+------------------------+------------------------+------------------+--------------------+-------------+------------------------+----+
+
+>>> spark.sql("select * from ofac where id in (4706, 7755)").show(truncate=False)
+spark.sql("select * from ofac where id in (4706, 7755)").show(truncate=False)
++---------+----------------------------------------------------------------------------------------+----+----------+-------------------------+-----------+--------------+--------+-----------------------+------+
+|addresses|aliases                                                                                 |id  |id_numbers|name                     |nationality|place_of_birth|position|reported_dates_of_birth|type  |
++---------+----------------------------------------------------------------------------------------+----+----------+-------------------------+-----------+--------------+--------+-----------------------+------+
+|null     |[{strong a.k.a.,  NATIONAL LIBERATION ARMY}, {strong a.k.a.,  NATIONAL LIBERATION ARMY}]|4706|null      | NATIONAL LIBERATION ARMY|[]         |null          |null    |null                   |Entity|
+|null     |[{strong a.k.a.,  NATIONAL LIBERATION ARMY}, {strong a.k.a.,  NATIONAL LIBERATION ARMY}]|7755|null      | NATIONAL LIBERATION ARMY|[]         |null          |null    |null                   |Entity|
++---------+----------------------------------------------------------------------------------------+----+----------+-------------------------+-----------+--------------+--------+-----------------------+------+
+
+>>> spark.sql("select * from entity_matches where uk_id = 12069").show(truncate=False)
+spark.sql("select * from entity_matches where uk_id = 12069").show(truncate=False)
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+|uk_id|ofac_id|uk_name|ofac_name|uk_address_country|ofac_address_country|name_distance|address_country_distance|rank|
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+|12069|4695   |ramak  |hamas    |null              |null                |2            |1                       |1   |
+|12069|10933  |ramak  |ramak    |syria             |syria               |0            |0                       |1   |
++-----+-------+-------+---------+------------------+--------------------+-------------+------------------------+----+
+
+>>> spark.sql("select * from ofac where id in (4695, 10933)").show(truncate=False)
+spark.sql("select * from ofac where id in (4695, 10933)").show(truncate=False)
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----+------------------------------------------------------------------------+------+-----------+--------------+--------+-----------------------+------+
+|addresses                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |aliases                                                                                                                                                                                                                                                                            |id   |id_numbers                                                              |name  |nationality|place_of_birth|position|reported_dates_of_birth|type  |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----+------------------------------------------------------------------------+------+-----------+--------------+--------+-----------------------+------+
+|null                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |[{strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}, {strong a.k.a.,  HAMAS}]|4695 |null                                                                    | HAMAS|[]         |null          |null    |null                   |Entity|
+|[{Syria, null, Free Zone Area, Jamarek, PO Box 932, Damascus, }, {Syria, null, Al Rawda Street, PO Box 932, , Damascus, }, {Syria, null, Abu Ramana Street, Rawda, , Damascus, }, {Syria, null, Damascus Duty Free, Damascus International Airport, , Damascus, }, {Syria, null, Dara'a Duty Free, Naseeb Border Center, , Dara'a, }, {Syria, null, Aleppo Duty Free, Aleppo International Airport, , Aleppo, }, {Syria, null, Jdaideh Duty Free Complex, Jdaideh Yaboos, , Damascus, }, {Syria, null, Bab el Hawa Border Center, , , Aleppo, }, {Syria, null, Lattakia Port, , , Lattakia, }, {Syria, null, Tartous Port, , , Tartous, }]|[{strong a.k.a.,  RAMAK}, {strong a.k.a.,  RAMAK}, {strong a.k.a.,  RAMAK}, {strong a.k.a.,  RAMAK}, {strong a.k.a.,  RAMAK}]                                                                                                                                                      |10933|[{ Email Address, dam.d.free@net.sy}, { Website, www.ramakdutyfree.net}]| RAMAK|[]         |null          |null    |null                   |Entity|
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----+------------------------------------------------------------------------+------+-----------+--------------+--------+-----------------------+------+
+
+>>> spark.sql("select * from entity_matches where uk_id = 12484").show(truncate=False)
+spark.sql("select * from entity_matches where uk_id = 12484").show(truncate=False)
++-----+-------+-------------------+-------------------+------------------+--------------------+-------------+------------------------+----+
+|uk_id|ofac_id|uk_name            |ofac_name          |uk_address_country|ofac_address_country|name_distance|address_country_distance|rank|
++-----+-------+-------------------+-------------------+------------------+--------------------+-------------+------------------------+----+
+|12484|17244  |saving bank        |saving bank        |syria             |syria               |0            |0                       |1   |
+|12484|17245  |popular credit bank|popular credit bank|syria             |syria               |0            |0                       |1   |
++-----+-------+-------------------+-------------------+------------------+--------------------+-------------+------------------------+----+
+
+>>> spark.sql("select * from ofac where id in (17244, 17245)").show(truncate=False)
+spark.sql("select * from ofac where id in (17244, 17245)").show(truncate=False)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----+----------+--------------------+-----------+--------------+--------+-----------------------+------+
+|addresses                                                                                                                                                                                                                                                  |aliases                                                                                    |id   |id_numbers|name                |nationality|place_of_birth|position|reported_dates_of_birth|type  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----+----------+--------------------+-----------+--------------+--------+-----------------------+------+
+|[{Syria, null, Amous Square, , , Damascus, }, {Syria, null, P.O. Box: 5467, Al-Furat St., Merjeh, Damascus, }]                                                                                                                                             |[{weak a.k.a.,  SAVING BANK}, {strong f.k.a.,  SAVING BANK}, {strong f.k.a.,  SAVING BANK}]|17244|null      | SAVING BANK        |[]         |null          |null    |null                   |Entity|
+|[{Syria, null, Dar El-Mohandeseen- Mysaloun St., P.O. Box: 2841, , Damascus, }, {Syria, null, P.O. Box 2841, Maysaloun Street, , Damascus, }, {Syria, 2841, Dar Al Mouhandseen Building, 6th Floor, Maysaloun Street, Dar Al Mohandessin Area, Damascus, }]|[{weak a.k.a.,  POPULAR CREDIT BANK}]                                                      |17245|null      | POPULAR CREDIT BANK|[]         |null          |null    |null                   |Entity|
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-----+----------+--------------------+-----------+--------------+--------+-----------------------+------+
+
+>>> spark.sql("select * from gbr where id in (12484)").show(truncate=False)
+spark.sql("select * from gbr where id in (12484)").show(truncate=False)
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------+-----+----------+-------------------+-----------+--------------+--------+-----------------------+------+
+|addresses                                                                        |aliases                                                                   |id   |id_numbers|name               |nationality|place_of_birth|position|reported_dates_of_birth|type  |
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------+-----+----------+-------------------+-----------+--------------+--------+-----------------------+------+
+|[{Syria, null, Dar Al Muhanisen Building, 6th Floor, Maysaloun Street, Damascus}]|[{AKA, SAVING BANK}, {AKA, THE GENERAL ESTABLISHMENT OF MAIL SAVING FUND}]|12484|[]        |POPULAR CREDIT BANK|[null]     |              |null    |[null]                 |Entity|
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------+-----+----------+-------------------+-----------+--------------+--------+-----------------------+------+
