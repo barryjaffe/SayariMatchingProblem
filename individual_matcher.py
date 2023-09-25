@@ -234,8 +234,7 @@ def duplicate_detection(spark):
     """)
     ofacDuplicatesDF.show(20, False)
     return None
-
-
+ 
 def main():
     print('cmd entry:', sys.argv)
     
@@ -269,10 +268,10 @@ def main():
 
     gbrIndividualDF = extract_individuals(spark, gbr_prefix)
     ofacIndividualDF = extract_individuals(spark, ofac_prefix)
-    gbrDobDF = gbr_dob_expansion(spark)
-    ofacDobDF = ofac_dob_expansion(spark)    
     gbrIndividualNamesDF = exploded_data(spark, gbr_prefix)
     ofacIndividualNamesDF = exploded_data(spark, ofac_prefix)
+    gbrDobDF = gbr_dob_expansion(spark)
+    ofacDobDF = ofac_dob_expansion(spark)
     matchingNamesDF = match_by_name(spark)
     individualMatchesDF = match_by_score(spark)
 
