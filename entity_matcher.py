@@ -28,8 +28,9 @@ def exploded_data(session, source):
      lower(trim(id_number.value))            id_number_value,
      lower(trim(id_number.comment))          id_number_comment,
      lower(trim(position))                   position,
-     lower(trim(place_of_birth))             place_of_birth,
-     lower(trim(exploded_addresses.country)) address_country
+     lower(trim(exploded_addresses.country)) address_country,
+     lower(trim(exploded_addresses.value))   address_value,
+     lower(trim(exploded_addresses.postal_code)) address_postal_code
     FROM {source}_entity
     LATERAL VIEW OUTER explode(id_numbers) exploded_id_numbers as id_number
     LATERAL VIEW OUTER explode(array_distinct(flatten(array(aliases, array(struct('name' as type, name as value)))))) exploded_aliases as alias
@@ -68,10 +69,12 @@ matchingNamesDF = spark.sql("""SELECT DISTINCT
   g.id uk_id,
   o.alias_value ofac_name,
   g.alias_value uk_name,
-  o.place_of_birth ofac_place_of_birth,
-  g.place_of_birth uk_place_of_birth,
   o.address_country   ofac_address_country,
-  g.address_country   uk_address_country
+  g.address_country   uk_address_country,
+  o.address_value     ofac_address_value,
+  g.address_value     uk_address_value,
+  o.address_postal_code ofac_address_postal_code,
+  g.address_postal_code uk_address_postal_code
 FROM gbr_entity_data g
 JOIN ofac_entity_data o ON (levenshtein(g.alias_value,o.alias_value) < 3)
 WHERE nvl(levenshtein(g.address_country, o.address_country), 1) < 3
@@ -79,7 +82,7 @@ WHERE nvl(levenshtein(g.address_country, o.address_country), 1) < 3
 matchingNamesDF.cache() # for incremental debugging
 matchingNamesDF.createOrReplaceTempView("name_matches")
 
-# Calculate matches by further restricting name matches by birth date range matching
+# Calculate matches by further restricting name matches by address_value and address_postal_code.
 # Rank the data by matching criteria, along with some additonal "hacky" overlap measures, taking the "best"
 # value by ordering clause.  Using row_number (calling it rank), rank/dense rank may result in multiple rows
 # within the same window having a rank of 1 (where row_number simply assign a monotonically icreasing value).
@@ -88,12 +91,16 @@ entityMatchesDF = spark.sql("""WITH results AS (SELECT
   m.ofac_id,
   levenshtein(m.uk_name, m.ofac_name) name_distance,
   nvl(levenshtein(m.uk_address_country, m.ofac_address_country), 1) address_country_distance,
-  size(array_intersect(transform(split(m.uk_place_of_birth, '[,]'), x -> trim(x)),
-                       transform(split(m.ofac_place_of_birth, '[,]'), x -> trim(x)))) place_of_birth_overlap, 
+  nvl(levenshtein(m.uk_address_value, m.ofac_address_value), 1) address_value_distance,
+  nvl(levenshtein(m.uk_address_postal_code, m.ofac_address_postal_code), 1) address_postal_code_distance,
   m.uk_name,
   m.ofac_name,
   m.uk_address_country,
-  m.ofac_address_country
+  m.ofac_address_country,
+  m.uk_address_value,
+  m.ofac_address_value,
+  m.uk_address_postal_code,
+  m.ofac_address_postal_code
 FROM name_matches m),
 rankings as (
 SELECT DISTINCT
@@ -103,9 +110,15 @@ SELECT DISTINCT
   ofac_name,
   uk_address_country,
   ofac_address_country,
+  uk_address_value,
+  ofac_address_value,
+  uk_address_postal_code,
+  ofac_address_postal_code,
   name_distance,
   address_country_distance,
-  ROW_NUMBER() OVER (PARTITION BY /*uk_id,*/ ofac_id ORDER BY name_distance, address_country_distance) rank
+  address_value_distance,
+  address_postal_code_distance,
+  ROW_NUMBER() OVER (PARTITION BY /*uk_id,*/ ofac_id ORDER BY name_distance, address_country_distance, address_value_distance, address_postal_code_distance) rank
 FROM results
 ORDER BY ofac_id, uk_id, rank)
 SELECT *
