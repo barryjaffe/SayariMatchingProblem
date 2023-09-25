@@ -3,24 +3,13 @@
 from pyspark.sql import SparkSession
 import sys
 
-print('cmd entry:', sys.argv)
-
-uk_file_path = "gbr.jsonl.gz" # sys.argv[1]
-ofac_file_path = "ofac.jsonl.gz" # sys.argv[2]
-output_path = "individual_matches.tsv" # sys.argv[3]
-
-ofac_prefix = "ofac"
-gbr_prefix = "gbr"
-
-sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
-
-def extract_individuals(session, source):
+def extract_individuals(spark, source):
     df = spark.sql(f"SELECT * FROM {source} WHERE type = 'Individual'")
     df.createOrReplaceTempView(f"{source}_individual")
     return df
 
-def exploded_data(session, source):
-    df = session.sql(f"""SELECT
+def exploded_data(spark, source):
+    df = spark.sql(f"""SELECT
      CAST(ltrim(id) as long)             id,
      lower(trim(name))                   name,
      lower(trim(alias.value))            alias_value,
@@ -38,29 +27,6 @@ def exploded_data(session, source):
     df.createOrReplaceTempView(f"{source}_individual_data")
     return df
 
-
-spark = SparkSession.builder \
-    .appName("OFAC/GBR Individual Matching") \
-    .getOrCreate() \
-
-sc = spark.sparkContext
-sc.setLogLevel("ERROR")
-
-print(f"Spark version = {spark.version}")
-print(f"Hadoop version = {sc._jvm.org.apache.hadoop.util.VersionInfo.getVersion()}")
-
-gbrDF = spark.read.json(uk_file_path)
-gbrDF.printSchema()
-gbrDF.createOrReplaceTempView(gbr_prefix)
-gbrIndividualDF = extract_individuals(spark, gbr_prefix)
-
-ofacDF = spark.read.json(ofac_file_path)
-ofacDF.printSchema()
-ofacDF.createOrReplaceTempView(ofac_prefix)
-ofacIndividualDF = extract_individuals(spark, ofac_prefix)
-
-gbrIndividualNamesDF = exploded_data(spark, gbr_prefix)
-ofacIndividualNamesDF = exploded_data(spark, ofac_prefix)
 
 """
 ofac dob samples
@@ -90,8 +56,8 @@ gbr dob samples
 # gbr dates: (note: making dates the same "shape" in order to compare them)
 # * single full or partial date with dd/MM/yyyy format
 # * create a min/max for each date, for full date min = max, for partial date create appropriate min and max date
-
-gbrDobDF = spark.sql(r"""
+def gbr_dob_expansion(spark):
+    gbrDobDF = spark.sql(r"""
 WITH date_parts AS (SELECT id, dob,
    to_date(dob, 'dd/MM/yyyy') day_date,
    to_date(regexp_extract(dob, '(\\d+/)(\\d+/\\d+)', 2), 'MM/yyyy') month_date,
@@ -121,7 +87,9 @@ SELECT
   date_range.max max_dob
 FROM date_ranges
 """)
-gbrDobDF.createOrReplaceTempView("gbr_dob")
+    gbrDobDF.createOrReplaceTempView("gbr_dob")
+    return gbrDobDF
+
 
 # ofac dates: (note: making dates the same "shape" in order to compare them)
 # * partial and complete dates
@@ -131,7 +99,8 @@ gbrDobDF.createOrReplaceTempView("gbr_dob")
 #   +/- 2 months for month specific date
 #   +/- 12 months for year specific date
 #   note: circa padding should be parameterized
-ofacDobDF = spark.sql(r"""
+def ofac_dob_expansion(spark):
+    ofacDobDF = spark.sql(r"""
 WITH date_parts AS (
 SELECT
    id,
@@ -172,9 +141,11 @@ coalesce(date_ranges[1].max, date_ranges[0].max) max_dob
 FROM date_ranges
 """)
 
-ofacDobDF.createOrReplaceTempView("ofac_dob")
+    ofacDobDF.createOrReplaceTempView("ofac_dob")
+    return ofacDobDF
 
-matchingNamesDF = spark.sql("""SELECT DISTINCT
+def match_by_name(spark):
+    matchingNamesDF = spark.sql("""SELECT DISTINCT
   o.id ofac_id,
   g.id uk_id,
   o.alias_value ofac_name,
@@ -186,14 +157,16 @@ matchingNamesDF = spark.sql("""SELECT DISTINCT
 FROM gbr_individual_data g
 JOIN ofac_individual_data o ON (levenshtein(g.alias_value,o.alias_value) < 3)
 """)
-matchingNamesDF.cache() # for incremental debugging
-matchingNamesDF.createOrReplaceTempView("name_matches")
+    matchingNamesDF.cache() # for incremental debugging
+    matchingNamesDF.createOrReplaceTempView("name_matches")
+    return matchingNamesDF
 
 # Calculate matches by further restricting name matches by birth date range matching
 # Rank the data by matching criteria, along with some additonal "hacky" overlap measures, taking the "best"
 # value by ordering clause.  Using row_number (calling it rank), rank/dense rank may result in multiple rows
 # within the same window having a rank of 1 (where row_number simply assign a monotonically icreasing value).
-individualMatchesDF = spark.sql("""WITH results AS (SELECT
+def match_by_score(spark):
+    individualMatchesDF = spark.sql("""WITH results AS (SELECT
   m.uk_id,
   m.ofac_id,
   levenshtein(m.uk_name, m.ofac_name) name_distance,
@@ -241,32 +214,81 @@ FROM rankings
 WHERE rank = 1
 ORDER BY uk_id, ofac_id, uk_name
 """)
+    return individualMatchesDF
 
-print("calculating results...")
-individualMatchesDF.show(truncate=False)
-individualMatchesDF.createOrReplaceTempView("individual_matches")
-individualMatchesDF.write.mode("overwrite").option("header", True).option("delimiter", '\t').csv(output_path)
-print(f"Individual match count: {individualMatchesDF.count()}")
 
-print("duplicate detection")
+def duplicate_detection(spark):
+    ukDuplicatesDF = spark.sql("""SELECT
+    ofac_id, COUNT(DISTINCT uk_id) dup_count, COLLECT_SET(uk_id) dup_uk_ids
+    FROM individual_matches
+    GROUP BY ofac_id
+    HAVING COUNT(DISTINCT uk_id) > 1
+    """)
+    ukDuplicatesDF.show(20, False)
+    
+    ofacDuplicatesDF = spark.sql("""SELECT
+    uk_id, COUNT(DISTINCT ofac_id) dup_count, COLLECT_SET(ofac_id) dup_ofac_ids
+    FROM individual_matches
+    GROUP BY uk_id
+    HAVING COUNT(DISTINCT ofac_id) > 1
+    """)
+    ofacDuplicatesDF.show(20, False)
+    return None
 
-ukDuplicatesDF = spark.sql("""SELECT
-ofac_id, COUNT(DISTINCT uk_id) dup_count, COLLECT_SET(uk_id) dup_uk_ids
-FROM individual_matches
-GROUP BY ofac_id
-HAVING COUNT(DISTINCT uk_id) > 1
-""")
-ukDuplicatesDF.show(20, False)
 
-ofacDuplicatesDF = spark.sql("""SELECT
-uk_id, COUNT(DISTINCT ofac_id) dup_count, COLLECT_SET(ofac_id) dup_ofac_ids
-FROM individual_matches
-GROUP BY uk_id
-HAVING COUNT(DISTINCT ofac_id) > 1
-""")
-ofacDuplicatesDF.show(20, False)
+def main():
+    print('cmd entry:', sys.argv)
+    
+    uk_file_path = "gbr.jsonl.gz" # sys.argv[1]
+    ofac_file_path = "ofac.jsonl.gz" # sys.argv[2]
+    output_path = "individual_matches.tsv" # sys.argv[3]
+    
+    ofac_prefix = "ofac"
+    gbr_prefix = "gbr"
+    
+    sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
 
-spark.sql("show tables").show()
-#spark.stop()
+    spark = SparkSession.builder \
+                        .appName("OFAC/GBR Individual Matching") \
+                        .getOrCreate()
 
-print("done")
+    sc = spark.sparkContext
+    sc.setLogLevel("ERROR")
+    
+    print(f"Spark version = {spark.version}")
+    print(f"Hadoop version = {sc._jvm.org.apache.hadoop.util.VersionInfo.getVersion()}")
+    
+    gbrDF = spark.read.json(uk_file_path)
+    gbrDF.printSchema()
+    gbrDF.createOrReplaceTempView(gbr_prefix)
+
+    
+    ofacDF = spark.read.json(ofac_file_path)
+    ofacDF.printSchema()
+    ofacDF.createOrReplaceTempView(ofac_prefix)
+
+    gbrIndividualDF = extract_individuals(spark, gbr_prefix)
+    ofacIndividualDF = extract_individuals(spark, ofac_prefix)
+    gbrDobDF = gbr_dob_expansion(spark)
+    ofacDobDF = ofac_dob_expansion(spark)    
+    gbrIndividualNamesDF = exploded_data(spark, gbr_prefix)
+    ofacIndividualNamesDF = exploded_data(spark, ofac_prefix)
+    matchingNamesDF = match_by_name(spark)
+    individualMatchesDF = match_by_score(spark)
+
+    print("calculating results...")
+    individualMatchesDF.show(truncate=False)
+    individualMatchesDF.createOrReplaceTempView("individual_matches")
+    individualMatchesDF.write.mode("overwrite").option("header", True).option("delimiter", '\t').csv(output_path)
+    print(f"Individual match count: {individualMatchesDF.count()}")
+
+    print("duplicate detection")
+    duplicate_detection(spark)
+    spark.sql("show tables").show()
+    #spark.stop()
+    print("done")
+
+
+if __name__ == '__main__':
+    main()
+    
